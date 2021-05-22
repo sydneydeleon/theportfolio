@@ -1,0 +1,173 @@
+.sidebar {
+    background-color:#e85a50;
+    height: 10vh;
+    display: flex;
+    justify-content:start;
+    align-items:center;
+    position:relative;
+}
+
+.menu-bars {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    font-size: .7rem;
+    letter-spacing:1px;
+    background: none;
+    text-align:center;
+    line-height:15px;
+}
+
+.navbar-toggle {
+    background-color:#fff;
+    width:100%;
+    height: 80px;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom:40px;
+}
+
+.navbar-toggle a {
+    font-family:'Alata';
+    font-size: .7rem;
+    letter-spacing:1px;
+    text-decoration:none;
+    color:#000;
+    font-weight:bold;
+}
+
+.sidebar a,.sidebar a:visited {
+    text-decoration: none;
+    color:#000;
+    font-family:'Alata';
+    font-weight:bold;
+}
+
+menuiconspan {
+    font-size:1.5rem;
+}
+
+.nav-menu {
+    background-color:#fff;
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    position:fixed;
+    top:-100%;
+    left:0;
+    transition: 850ms;
+    z-index:99999;
+}
+
+.nav-menu.active {
+    top: 0;
+    transition: 850ms;
+}
+
+.nav-text {
+    display: inline-block; 
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height:60px;
+    margin-bottom:2rem;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color:#000;
+    font-size:3rem;
+    width:96%;
+    height:100%;
+    display:flex;
+    align-items:center;
+}
+
+.linktitle {
+    color:#000;
+    z-index:99;
+    font-family:'Alata';
+    font-weight:bold;
+    margin-left:30px;
+    transition:2000ms;
+}
+
+.nav-text:hover .linktitle {
+    font-style:italic;
+    transition:2000ms;
+}
+
+.nav-text:hover .onelinkbg,
+.nav-text:hover .twolinkbg,
+.nav-text:hover .threelinkbg {
+    width:12.5rem;
+    transition:1200ms;
+}
+
+
+.nav-text:hover .fourlinkbg,
+.nav-text:hover .fivelinkbg {
+    width:15.3rem;
+    transition:1200ms;
+}
+
+.onelinkbg {
+    height:1.8rem;
+    position:absolute;
+    margin-top:.3rem;
+    transition:1200ms;
+    width:0px;
+    background:rgba(229,194,143,0.5);
+}
+
+.twolinkbg {
+    height:1.8rem;
+    position:absolute;
+    margin-top:.3rem;
+    transition:1200ms;
+    width:0px;
+    background:rgba(229,194,143,0.8);
+}
+
+.threelinkbg {
+    height:1.8rem;
+    position:absolute;
+    margin-top:.3rem;
+    transition:1200ms;
+    width:0px;
+    background:rgba(199,97,84,0.7);
+}
+
+.fourlinkbg {
+    height:1.8rem;
+    position:absolute;
+    margin-top:.3rem;
+    transition:1200ms;
+    width:0px;
+    background:rgba(199,97,84,0.5);
+}
+
+.fivelinkbg {
+    height:1.8rem;
+    position:absolute;
+    margin-top:.3rem;
+    transition:1200ms;
+    width:0px;
+    background:rgba(80,85,99,0.5);
+}
+
+.nav-menu-items {
+    width:100%;
+}
+
+
+
+li {
+    background:;
+    margin-bottom:10px;
+    width:80%;
+}

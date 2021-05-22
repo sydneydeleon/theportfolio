@@ -1,0 +1,19 @@
+.logoHeader {
+    background:#e85a50;
+    width:100vw;
+    height:90vh;
+    box-sizing:border-box;
+    display: inline-block;
+    vertical-align: middle;
+}
+ 
+.logoHeader img {
+    vertical-align: middle;
+    display: inline-block;
+    width:100%;
+    height:auto;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+}
