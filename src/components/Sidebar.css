@@ -57,7 +57,7 @@ menuiconspan {
     display:flex;
     justify-content:center;
     position:fixed;
-    top:-100%;
+    top:-150%;
     left:0;
     transition: 850ms;
     z-index:99999;
