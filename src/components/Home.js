@@ -10,10 +10,9 @@ function Home() {
         </div>
         
         <div className="content">
-            <h1>home!!!!!!!!!!!!!!!!!!!!!!!!!!!</h1>
+            <h1>home!!!!!!!!!</h1>
 
-            helelepopp<br></br>
-            helelepopp
+            filler text filler text filler text
            
         </div></> 
     )

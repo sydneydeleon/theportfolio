@@ -10,6 +10,7 @@ function App() {
       <Router>
       <Sidebar />
       <Switch>
+        
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
       </Switch>
