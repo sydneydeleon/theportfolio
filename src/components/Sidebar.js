@@ -3,7 +3,6 @@ import * as FiIcons from "react-icons/fi";
 import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import './Sidebar.css';
-import { IconContext } from 'react-icons';
 
 function Sidebar() {
     const [sidemenu, setSideMenu] = useState(false)
@@ -11,7 +10,7 @@ function Sidebar() {
     const showMenu = () => setSideMenu(!sidemenu)
     return (
         <>
-        <IconContext.Provider value={{color:'#000'}}>
+
             <div className="sidebar">
                 <Link to="#" className="menu-bars" onClick={showMenu}>
                     <menuiconspan><FiIcons.FiBarChart2/><br/></menuiconspan>
@@ -46,7 +45,6 @@ function Sidebar() {
                 </ul>
 
             </nav>
-            </IconContext.Provider>
         </>
     )
 }

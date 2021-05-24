@@ -1,0 +1,111 @@
+
+.contact-left {
+  background:#bd5149;
+  border-radius: 5px 5px 0px 0px;
+  display:inline-block;
+  width:100%;
+  position:relative;
+  color:white;
+  padding:20px;
+  font-family:'Alata';
+}
+
+.contact-right {
+  display:inline-block;
+  width:100%;
+  position:relative;
+  padding:20px;
+}
+
+.contact-left h1 {
+text-align:center;
+padding:10px;
+}
+
+.contact-left h2 {
+  font-size:13px;
+  font-weight:normal;
+}
+
+.contactform {
+  width: 55vw;
+  min-height:100vh;
+  padding:100px 0px;
+  margin: 0 auto;
+}
+
+.formgroup {
+  display:inline-block;
+  width:100%;
+}
+
+.formgroup input[type="text"] {
+
+  background-color: rgba(229,194,143,0.4);
+  border:0px;
+  border-bottom:2px solid rgba(229,194,143,0.8);
+  padding:15px;
+  font-size:15px;
+  font-weight:300;
+  width:100%;
+  margin-bottom:20px;
+  margin-top:10px;
+}
+
+
+.formgroup textarea {
+
+  background-color: rgba(229,194,143,0.4);
+  border:0px;
+  border-bottom:2px solid rgba(229,194,143,0.8);
+  padding:15px;
+  font-size:15px;
+  font-weight:300;
+  width:100%;
+  height:130px;
+  margin-bottom:20px;
+  margin-top:10px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+
+
+label {
+  margin-bottom:.8rem;
+  font-weight: bold;
+  font-size:11px;
+  color:rgba(199,97,84,1);
+  text-transform:uppercase;
+}
+
+button {
+  padding: 20px;
+  border: none;
+  background-color: rgba(199,97,84,.7);
+  font-weight: bold;
+  text-transform:uppercase;
+  font-family:'Alata';
+  letter-spacing:2px;
+  word-spacing:5px;
+  font-size: 12px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 10px;
+  width:100%;
+  text-shadow:1px 1px rgba(199,97,84,1);
+  transition:500ms;
+}
+
+button:hover {
+  background-color: rgba(199,97,84,.9);
+  font-style:italic;
+  font-size:14px;
+  letter-spacing:3px;
+  text-shadow:1px 1px rgba(229,194,143,1);
+  transition:500ms;
+}
