@@ -2,10 +2,9 @@
     background-color:#e85a50;
     height: 10vh;
     display: flex;
-    justify-content:start;
+    justify-content:flex-start;
     align-items:center;
     position:relative;
-    color:;
 }
 
 .menu-bars {
@@ -25,7 +24,7 @@
     width:100%;
     height: 80px;
     display:flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     margin-bottom:40px;
 }
@@ -168,7 +167,6 @@ menuiconspan {
 
 
 li {
-    background:;
     margin-bottom:10px;
     width:80%;
 }

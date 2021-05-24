@@ -14,6 +14,21 @@ a,a:active,a:visited {
   src: local('Alata'), url(./fonts/alata-regular.ttf) format('truetype');
 }
 
+@font-face {
+  font-family:"toybox";
+  src:url('https://static.tumblr.com/d5muzyw/3iAqs99di/toybox.ttf');
+}
+
+@font-face { 
+  font-family: "Moon"; 
+  src: url('https://dl.dropboxusercontent.com/s/7nt1qk7u3v647wq/MoonLight.otf');
+}
+
+@font-face { 
+  font-family: "MoonBold"; 
+  src: url('https://dl.dropboxusercontent.com/s/tbrh79amlmbzt1d/MoonBold.otf');
+}
+
 /* @font-face {
   font-family: 'GothamBold';
   src: local('GothamBold'), url(./fonts/GothamBold.ttf) format('truetype');

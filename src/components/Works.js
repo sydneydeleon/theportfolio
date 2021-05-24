@@ -8,10 +8,7 @@ function Works() {
         <div className="content">
 
             <div className="works-nav"> 
-            <Link to="/">WEBSITES</Link>
-            <Link to="/">MARKETING</Link>
-            <Link to="/">MOCK UPS</Link>
-            <Link to="/">GRAPHICS</Link>
+            <b>HIGHLIGHTED SKILLS:</b> DESIGN • MOCK-UPS • BUILDING • MARKETING
             </div>
 
 
