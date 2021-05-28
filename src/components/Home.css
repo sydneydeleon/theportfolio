@@ -6,7 +6,7 @@
     display: inline-block;
     vertical-align: middle;
 }
- 
+
 .logoHeader img {
     vertical-align: middle;
     display: inline-block;
@@ -16,4 +16,30 @@
     top: 0%;
     bottom: 0%;
     margin: auto;
+}
+ 
+.logomobile {
+    display:none;
+}
+
+.logodesktop {
+    display:none;
+}
+
+@media only screen and (max-width: 550px) {
+
+    .logomobile {
+
+        display:unset;
+    }
+  
+}
+
+@media only screen and (min-width: 551px) {
+
+    .logodesktop {
+
+        display:unset;
+    }
+  
 }
