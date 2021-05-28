@@ -90,28 +90,28 @@ menuiconspan {
 .linktitle {
     color:#000;
     z-index:99;
-    font-family:'Alata';
+    font-family:'MorangaBold';
     font-weight:bold;
     margin-left:30px;
-    transition:2000ms;
+    transition:3000ms;
 }
 
 .nav-text:hover .linktitle {
-    font-style:italic;
-    transition:2000ms;
+    font-family:'MorangaBoldItalic';
+    transition:3000ms;
 }
 
 .nav-text:hover .onelinkbg,
 .nav-text:hover .twolinkbg,
 .nav-text:hover .threelinkbg {
-    width:12.5rem;
+    width:13rem;
     transition:1200ms;
 }
 
 
 .nav-text:hover .fourlinkbg,
 .nav-text:hover .fivelinkbg {
-    width:15.3rem;
+    width:15.7rem;
     transition:1200ms;
 }
 
@@ -164,9 +164,73 @@ menuiconspan {
     width:100%;
 }
 
-
-
 li {
     margin-bottom:10px;
     width:80%;
 }
+
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+    .sidebar {
+        height:20vh;
+    }
+
+    .nav-text a {
+        font-size:1.3rem;
+    }
+
+    .nav-text {
+        height:20px;
+        margin-bottom:1rem;
+    }
+  
+  }
+
+  @media only screen and (max-width: 800px) {
+
+    .nav-text a {
+        font-size:4rem;
+    }
+
+    .nav-text {
+        height:55px;
+    }
+
+    .nav-text:hover .onelinkbg,
+    .nav-text:hover .twolinkbg,
+    .nav-text:hover .threelinkbg {
+    width:16.3rem;
+    transition:1200ms;
+    }
+
+    .nav-text:hover .fourlinkbg,
+    .nav-text:hover .fivelinkbg {
+    width:20.5rem;
+    transition:1200ms;
+}
+  
+  }
+
+  @media only screen and (min-width: 901px) {
+
+    .nav-text a {
+        font-size:5rem;
+    }
+
+    .nav-text {
+        height:80px;
+    }
+
+    .nav-text:hover .onelinkbg,
+    .nav-text:hover .twolinkbg,
+    .nav-text:hover .threelinkbg {
+    width:19.5rem;
+    transition:1200ms;
+    }
+
+    .nav-text:hover .fourlinkbg,
+    .nav-text:hover .fivelinkbg {
+    width:24rem;
+    transition:1200ms;
+}
+  
+  }

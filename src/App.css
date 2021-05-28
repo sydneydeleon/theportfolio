@@ -15,6 +15,26 @@ a,a:active,a:visited {
 }
 
 @font-face {
+  font-family: 'MorangaBold';
+  src: local('MorangaBold'), url(./fonts/MorangaBold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'MorangaBoldItalic';
+  src: local('MorangaBoldItalic'), url(./fonts/MorangaBoldItalic.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'MorangaLiIt';
+  src: local('MorangaLightItalic'), url(./fonts/MorangaLightItalic.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'MorangaLi';
+  src: local('MorangaLight'), url(./fonts/MorangaLight.otf) format('opentype');
+}
+
+@font-face {
   font-family:"toybox";
   src:url('https://static.tumblr.com/d5muzyw/3iAqs99di/toybox.ttf');
 }

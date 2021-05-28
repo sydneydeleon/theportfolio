@@ -1,7 +1,7 @@
 .works-nav {
     width:100vw;
     text-align:center;
-    font-family:'moon';
+    font-family:'MorangaLiIt';
     font-weight:bold;
     letter-spacing:.5px;
     color:#000;
@@ -16,7 +16,7 @@
 } 
 
 .works-nav b {
-    font-family:'MoonBold';
+    font-family:'MorangaBold';
     font-size:17px;
     letter-spacing: -0.2px;
     word-spacing:10px;
@@ -77,11 +77,12 @@
 }
 
 .works-title h1 {
-    font-family:'MoonBold';
+    font-family:'MorangaBoldItalic';
     letter-spacing:0px;
-    font-size:19px;
+    font-size:21px;
     padding:0px 20px;
     text-shadow:1px 1px #000;
+    margin-top:28px;
 }
 
 .works-content a,.works-content a:visited,.works-content a:active  {
@@ -91,4 +92,58 @@
 .works-it:hover .works-title {
     opacity:1;
     transition:500ms;
+}
+
+@media only screen and (max-width: 518px) {
+
+    .works-content {
+        padding:20px 40px;
+        padding-top:30px;
+    }
+    
+    .works-it {
+        width:280px;
+        height:322px;
+        margin-bottom:20px;
+    }
+    
+    .works-it img {
+        width:280px;
+        height:322px;
+    
+    }
+
+    .works-title {
+        width:280px;
+        height:322px;
+    }
+
+    .works-nav b {
+        font-size:23px;
+    }
+
+    .works-title {
+        width:280px;
+        height:322px;
+    }
+    
+    .works-title h1 {
+        letter-spacing:0px;
+        font-size:30px;
+        padding:0px 20px;
+    }
+  
+}
+
+@media only screen and (max-width: 575px) {
+
+    .works-nav {
+        padding-left:20px;
+        padding-right:20px;
+        padding-top:60px;
+        padding-bottom:20px;
+        font-size:18px;
+
+    }
+  
 }

@@ -22,8 +22,9 @@ export default function Contact() {
   return (
       <div className="contactform">
           <div className="contact-left">
-            <h1>Contact Orpheus Designs</h1>
-            <h2>Shoot me an email and i'll get back to you within 48 hours!</h2></div>
+            <h3>Get in touch with</h3>
+            <h1>Orpheus Designs</h1>
+            <h2>Shoot me an email & i'll get back to you within 48 hours!</h2></div>
           <div className="contact-right">
     <form className="contact-form" onSubmit={sendEmail}>
         <div className="formgroup">
