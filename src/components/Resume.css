@@ -1,3 +1,9 @@
+.resume-container {
+    width:100vw;
+    min-height:100vh;
+    background:#868ea6;
+}
+
 .resume-header {
     width:100vw;
     height:700px;
@@ -62,4 +68,104 @@
     font-family:'Moranga';
     margin-bottom:0px;
     font-size:27px;
+}
+
+.resume-gradient {
+    width:100%;
+    height:610px;
+    background: rgb(80,85,99);
+    background: -moz-linear-gradient(180deg, rgba(80,85,99,1) 0%, rgba(134,142,166,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(80,85,99,1) 0%, rgba(134,142,166,1) 100%);
+    background: linear-gradient(180deg, rgba(80,85,99,1) 0%, rgba(134,142,166,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#505563",endColorstr="#868ea6",GradientType=1);
+}
+
+.resume-skills {
+    padding:20px;
+    padding-top:160px;
+    width:650px;
+    height:710px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width:140px;
+    height:110px;
+    background:rgba(255,255,255,0.3);
+    display:inline-block;
+    margin-left:10px;
+    margin-right:10px;
+    text-align:center;
+    border-radius:5px;
+    padding:30px;
+    transition:1100ms;
+}
+
+.skill:hover {
+    background:rgba(255,255,255,1);
+    transition:1100ms;
+}
+
+.skill:hover .skill-icon,.skill:hover .skill-label {
+    color:#7f828b;
+    text-shadow:1px 1px rgba(80,85,99,1);
+    font-family:'MorangaBoldItalic';
+    transition:1100ms;
+}
+
+.skill-icon {
+    position:absolute;
+    font-size:45px;
+    margin-left:19px;
+    margin-top:-10px;
+    color:rgba(229,194,143,1);
+}
+
+.skill-label {
+    position:absolute;
+    width:140px;
+    margin-top:38px;
+    margin-left:-30px;
+    font-family:'MorangaBold';
+    text-shadow:1px 1px rgba(229,194,143,1);
+    color:rgba(80,85,99,1);
+    font-size:16px;
+}
+
+.skill span {
+    font-size:30px;
+}
+
+.skill h1 {
+    font-size:20px;
+}
+
+.skill-title {
+    position:absolute;
+    text-align:left;
+    padding:20px;
+    padding-left:50px;
+    width:100vw;
+    text-decoration:underline;
+    color:rgba(229,194,143,1);
+    font-family:'MorangaBoldItalic';
+    font-size:40px;
+    text-shadow:2px 2px #42454c;
+    margin-top:30px;
+
+}
+
+.resume-experience {
+    height:500px;
+}
+
+.bottom-gradient {
+    height:500px;
+    background: rgb(80,85,99);
+    background: -moz-linear-gradient(0deg, rgba(80,85,99,1) 0%, rgba(134,142,166,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(80,85,99,1) 0%, rgba(134,142,166,1) 100%);
+    background: linear-gradient(0deg, rgba(80,85,99,1) 0%, rgba(134,142,166,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#505563",endColorstr="#868ea6",GradientType=1);
 }
