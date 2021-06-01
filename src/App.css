@@ -35,6 +35,37 @@ a,a:active,a:visited {
 }
 
 @font-face {
+  font-family: 'GTWalsheimReg';
+  src: local('GTWalsheimPro-Regular'), url(./fonts/GTWalsheimPro-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GTWalsheimLight';
+  src: local('GTWalsheimPro-Light'), url(./fonts/GTWalsheimPro-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GTWalsheimConBo';
+  src: local('GTWalsheimPro-CondensedBoldOblique'), url(./fonts/GTWalsheimPro-CondensedBoldOblique.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'GTWalsheimConThin';
+  src: local('GTWalsheimPro-CondensedThin'), url(./fonts/GTWalsheimPro-CondensedThin.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GTWalsheimConReg';
+  src: local('GTWalsheimPro-CondensedRegular'), url(./fonts/GTWalsheimPro-CondensedRegular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GTWalsheimConBold';
+  src: local('GTWalsheimPro-CondensedBold'), url(./fonts/GTWalsheimPro-CondensedBold.ttf) format('truetype');
+}
+
+@font-face {
   font-family:"toybox";
   src:url('https://static.tumblr.com/d5muzyw/3iAqs99di/toybox.ttf');
 }

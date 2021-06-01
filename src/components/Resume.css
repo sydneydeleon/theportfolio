@@ -10,6 +10,7 @@
 
 .resume-col-container {
     width:100vw;
+    background:rgba(80,85,99,.9);
     flex-wrap:wrap;
     align-items:flex-start;
     justify-content:center;
@@ -24,6 +25,7 @@
     min-width:400px;
     min-height:200px;
     padding-top:50px;
+    background:#fff;
 }
 
 .resume-col-two {
@@ -32,7 +34,6 @@
     width:30vw;
     min-width:200px;
     min-height:300px;
-    background:rgba(80,85,99,.9);
 }
 
 .resume-col-three {
@@ -48,6 +49,7 @@
     width:70vw;
     min-width:400px;
     min-height:300px;
+    background:#fff;
 }
 
 .resume-col-five {
@@ -55,7 +57,6 @@
     width:30vw;
     min-width:200px;
     min-height:300px;
-    background:rgba(80,85,99,.9);
 }
 
 .resume-title-a {
@@ -73,22 +74,23 @@
     width:100%;
     overflow:visible;
     height:9px;
-    border-bottom:45px solid rgba(229,194,143,0.9);
+    border-bottom:45px solid #a5514a;
     margin-bottom:30px;
     transition:1200ms;
     padding:0px 8px;
-    text-shadow:2px 2px #fff;
+    color:#fff;
+    text-shadow:2px 2px #000;
 }
 
 .resume-title-a:hover {
     height:9px;
-    border-bottom:45px solid rgba(232,90,80,0.8);
+    border-bottom:45px solid #c6635c;
     transition:1200ms;
 }
 
 .resume-title-b:hover {
     height:39px;
-    border-bottom:7px solid rgba(232,90,80,0.8);
+    border-bottom:7px solid rgba(229,194,143,0.8);
     color:#fff;
     text-shadow:2px 2px #000;
     transition:1200ms;
@@ -97,4 +99,70 @@
 .resume-container h1 {
     margin-top:;
     font-family:'MorangaBoldItalic';
+}
+
+.resume-col-one ul,.resume-col-four ul {
+    list-style-type: none;
+    border-left:2px solid#c6635c;
+    margin-left:15px;
+}
+
+.resume-col-one li,.resume-col-four li {
+    margin-left:30px;
+    padding-bottom:20px;
+}
+
+.resume-col-one li:last-of-type,.resume-col-four li:last-of-type {
+    padding-bottom:5px;
+
+}
+
+.resume-col-one li:before,.resume-col-four li:before {
+    content:"•";
+    font-size:60px;
+    margin-left:-42px;
+    margin-top:-27px;
+    position:absolute;
+    color:#c6635c;
+}
+
+.resume-col-one span,.resume-col-four span {
+    font-family:'MorangaBold';
+    font-size:20px;
+    line-height:5px;
+    color:#c6635c;
+    text-shadow:1px 1px #86332d;
+}
+
+.resume-col-one p,.resume-col-four p {
+    padding-top:8px;
+    padding-bottom:15px;
+    font-size:14px;
+    font-family:'GTWalsheimReg';
+    padding-left:20px;
+    line-height:20px;
+}
+
+.resume-col-one b:before,.resume-col-four b:before {
+    content:"•";
+    font-size:20px;
+    margin-left:-13px;
+    margin-top:-1px;
+    position:absolute;
+}
+
+.resume-col-one em,.resume-col-four em {
+    font-family:'GTWalsheimConBo';
+    color:#adadad;
+}
+
+.resume-col-one i,.resume-col-four i {
+    font-family:'GTWalsheimConReg';
+    font-size:13px;
+    color:#86332d;
+}
+
+.resume-col-one strong,.resume-col-four strong {
+    font-family:'GTWalsheimConBold';
+    color:#505563;
 }
