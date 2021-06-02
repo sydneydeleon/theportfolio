@@ -1,0 +1,16 @@
+.resume-header {
+    width:100vw;
+    height:400px;
+    background:rgba(80,85,99,1);
+    background-size:cover;
+    display: table-cell; vertical-align: middle;
+    text-align:center;
+    font-size:90px;
+}
+
+.resume-tit {
+    font-family:'MorangaBoldItalic';
+    color:#fff;
+    text-shadow:3px 3px #000;
+
+}

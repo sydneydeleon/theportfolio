@@ -2,7 +2,10 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
 import { init } from 'emailjs-com';
+import FullLogo from '../images/thelogo.png';
+import ResumeHeader from "../images/floralhead.png";
 init("user_pZvo8NpRhr3HgLXbkfSJ2");
+
 
 export default function Contact() {
 
@@ -20,11 +23,13 @@ export default function Contact() {
   }
 
   return (
+  
+  <>
+  <div className="contact-header">
+  <div className="contact-tit"><img src={FullLogo}/>
+  <h2>Get in touch! Shoot me an email &<br/>i'll get back to you within 48 hours.</h2></div>
+</div>
       <div className="contactform">
-          <div className="contact-left">
-            <h3>Get in touch with</h3>
-            <h1>Orpheus Designs</h1>
-            <h2>Shoot me an email & i'll get back to you within 48 hours!</h2></div>
           <div className="contact-right">
     <form className="contact-form" onSubmit={sendEmail}>
         <div className="formgroup">
@@ -56,5 +61,6 @@ export default function Contact() {
     
     </div>
     </div>
+    </>
   );
 }

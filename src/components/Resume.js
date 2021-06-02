@@ -4,12 +4,13 @@ import * as FaIcons from "react-icons/fa";
 import * as SiIcons from "react-icons/si";
 import * as GiIcons from "react-icons/gi";
 import * as MdIcons from "react-icons/md";
+import ResumeHeader from "../images/floralhead.png"
 
 function Resume() {
     return (
         <div className="resume-container">
-            <div className="resume-header">
-                header
+            <div className="resume-header" style={{ backgroundImage: `url(${ResumeHeader})` }}>
+                <div className="resume-tit">Resume</div>
             </div>
 
             <div className="resume-col-container">

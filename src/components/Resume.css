@@ -4,8 +4,19 @@
 
 .resume-header {
     width:100vw;
-    height:150px;
+    height:400px;
     background:rgba(80,85,99,1);
+    background-size:cover;
+    display: table-cell; vertical-align: middle;
+    text-align:center;
+    font-size:90px;
+}
+
+.resume-tit {
+    font-family:'MorangaBoldItalic';
+    color:#fff;
+    text-shadow:3px 3px #000;
+
 }
 
 .resume-col-container {
@@ -258,16 +269,16 @@ hr {
     }
 
     .resume-skill {
-        width:142px;
+        width:23%;
+    }
+    
+    .resume-skill-b,.resume-skill-c {
+        width:32%;
     }
 
     hr {
         margin-top:30px;
         margin-bottom:40px;
-    }
-
-    .resume-skill-b,.resume-skill-c {
-        width:243px;
     }
     
     .resume-col-two,.resume-col-five {
@@ -277,7 +288,13 @@ hr {
 
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 899px) {
+
+    .resume-header {
+        height:350px;
+        font-size:80px;
+    }
+
 
     .resume-title-a,.resume-title-b {
         text-align:center;
@@ -305,9 +322,6 @@ hr {
         width:85%;
     }
 
-    .resume-skill,.resume-skill-b,.resume-skill-c {
-        width:30%;
-    }
 
     hr {
         margin-top:30px;
@@ -317,6 +331,28 @@ hr {
     .resume-col-two,.resume-col-five {
         width:100vw;
         padding:20px 20px;
+    }
+
+}
+
+@media only screen and (max-width: 788px) {
+
+
+    .resume-skill,.resume-skill-b,.resume-skill-c {
+        width:31%;
+    }
+
+}
+
+@media only screen and (max-width: 667px) {
+
+    .resume-header {
+        height:330px;
+        font-size:70px;
+    }
+
+    .resume-skill,.resume-skill-b,.resume-skill-c {
+        width:31%;
     }
 
 }

@@ -40,6 +40,11 @@ a,a:active,a:visited {
 }
 
 @font-face {
+  font-family: 'GTWalsheimRegBold';
+  src: local('GTWalsheimPro-Bold'), url(./fonts/GTWalsheimPro-Bold.ttf) format('truetype');
+}
+
+@font-face {
   font-family: 'GTWalsheimLight';
   src: local('GTWalsheimPro-Light'), url(./fonts/GTWalsheimPro-Light.ttf) format('truetype');
 }
@@ -49,6 +54,10 @@ a,a:active,a:visited {
   src: local('GTWalsheimPro-CondensedBoldOblique'), url(./fonts/GTWalsheimPro-CondensedBoldOblique.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'GTWalsheimMedObl';
+  src: local('GTWalsheimPro-MediumOblique'), url(./fonts/GTWalsheimPro-MediumOblique.ttf) format('truetype');
+}
 
 @font-face {
   font-family: 'GTWalsheimConThin';
@@ -63,6 +72,11 @@ a,a:active,a:visited {
 @font-face {
   font-family: 'GTWalsheimConBold';
   src: local('GTWalsheimPro-CondensedBold'), url(./fonts/GTWalsheimPro-CondensedBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GTWalsheimLiBo';
+  src: local('GTWalsheimPro-LightOblique'), url(./fonts/GTWalsheimPro-LightOblique.ttf) format('truetype');
 }
 
 @font-face {

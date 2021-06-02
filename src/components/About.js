@@ -1,9 +1,13 @@
 import React from 'react'
+import './About.css';
+import ResumeHeader from "../images/floralhead.png";
 
 function About() {
     return (
         <div className="about">
-            <h1>about</h1>
+            <div className="resume-header" style={{ backgroundImage: `url(${ResumeHeader})` }}>
+                <div className="resume-tit">About</div>
+            </div>
             
         </div>
     )

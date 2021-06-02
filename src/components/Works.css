@@ -1,7 +1,24 @@
+.resume-header {
+    width:100vw;
+    height:400px;
+    background:rgba(80,85,99,1);
+    background-size:cover;
+    display: table-cell; vertical-align: middle;
+    text-align:center;
+    font-size:90px;
+}
+
+.resume-tit {
+    font-family:'MorangaBoldItalic';
+    color:#fff;
+    text-shadow:3px 3px #000;
+
+}
+
 .works-nav {
     width:100vw;
     text-align:center;
-    font-family:'MorangaLiIt';
+    font-family:'GTWalsheimLiBo';
     font-weight:bold;
     letter-spacing:.5px;
     color:#000;
@@ -75,14 +92,22 @@
     padding:0px;
     color:#fff;
 }
+.works-title p {
+    margin-bottom:0px;
+    margin-top:0px;
+    font-family:'GTWalsheimRegBold';
+    color:#56607c;
+    text-shadow:1px 1px #fff;
 
+}
 .works-title h1 {
     font-family:'MorangaBoldItalic';
     letter-spacing:0px;
     font-size:21px;
     padding:0px 20px;
     text-shadow:1px 1px #000;
-    margin-top:28px;
+    margin-bottom:0px;
+    padding-bottom:0px;
 }
 
 .works-content a,.works-content a:visited,.works-content a:active  {
@@ -102,29 +127,24 @@
     }
     
     .works-it {
-        width:280px;
-        height:322px;
+        width:310px;
+        height:357px;
         margin-bottom:20px;
     }
     
     .works-it img {
-        width:280px;
-        height:322px;
+        width:310px;
+        height:357px;
     
     }
 
     .works-title {
-        width:280px;
-        height:322px;
+        width:310px;
+        height:357px;
     }
 
     .works-nav b {
         font-size:23px;
-    }
-
-    .works-title {
-        width:280px;
-        height:322px;
     }
     
     .works-title h1 {
@@ -143,7 +163,6 @@
         padding-top:60px;
         padding-bottom:20px;
         font-size:18px;
-
     }
   
 }

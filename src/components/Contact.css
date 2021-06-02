@@ -1,13 +1,28 @@
-
-.contact-left {
+.contact-header {
+  width:100vw;
+  height:400px;
   background:#cc524a;
-  border-radius:0px;
-  display:inline-block;
+  background-size:cover;
+  display: table-cell; vertical-align: middle;
+  text-align:center;
+  font-size:90px;
+  padding:70px;
+}
+
+.contact-tit {
+  font-family:'MorangaBoldItalic';
+  color:#fff;
+  text-shadow:3px 3px #000;
+
+}
+
+.contact-tit h2 {
+  text-shadow:1px 1px #000;
+}
+
+.contact-header img {
   width:100%;
-  position:relative;
-  color:white;
-  padding:20px;
-  font-family:'Alata';
+  height:auto;
 }
 
 .contact-right {
@@ -17,38 +32,20 @@
   padding:20px;
 }
 
-.contact-left h1 {
-text-align:center;
-
-margin-top:0px;
-font-size:3rem;
-width:90%;
-padding:5px 0px;
-margin:0 auto;
-text-decoration:underline;
-}
-
-.contact-left h2 {
+.contact-header h2 {
   font-size:13px;
   font-weight:normal;
   text-align:center;
-  font-family:'MorangaLi';
-  font-size:1rem;
-  padding-bottom:7px;
-}
+  font-family:'GTWalsheimLight';
+  font-size:1.2rem;
+  padding:15px 40px;
 
-.contact-left h3 {
-  text-align:center;
-  font-family:'MorangaLiIt';
-  margin-bottom:-10px;
-  font-size:1.5rem;
-  font-weight:normal;
-  }
+}
 
 .contactform {
   width: 55vw;
   min-height:100vh;
-  padding:100px 0px;
+  padding:50px 0px;
   margin: 0 auto;
 }
 
@@ -68,6 +65,7 @@ text-decoration:underline;
   width:100%;
   margin-bottom:25px;
   margin-top:2px;
+  font-family:'GTWalsheimLight';
 }
 
 
@@ -83,6 +81,7 @@ text-decoration:underline;
   height:130px;
   margin-bottom:25px;
   margin-top:2px;
+  font-family:'GTWalsheimLight';
 }
 
 h1 {
@@ -94,7 +93,7 @@ h1 {
 label {
   font-weight: bold;
   font-size:12px;
-  color:rgba(199,97,84,1);
+  color:#626d8d;
   text-transform:uppercase;
   font-family:'MorangaBoldItalic';
 }
@@ -128,7 +127,18 @@ button:hover {
   transition:500ms;
 }
 
+.contact-left img{
+width:100%;
+height:auto;
+padding:20px 0px;
+}
+
 @media only screen and (max-width: 768px) {
+
+  .contact-tit h2 {
+    text-shadow:1px 1px #000;
+    font-size:18px;
+  }
 
   .contactform {
     width:100vw;
@@ -152,13 +162,6 @@ button:hover {
     width:100%;
   }
     
-  .contact-left h2 {
-    font-family:'MorangaLi';
-    font-size:1rem;
-    padding-right:50px;
-    padding-left:50px;
-  }
-    
   .contact-left h3 {
     font-size:1.5rem;
   }
@@ -178,6 +181,11 @@ button:hover {
 }
 
 @media only screen and (min-width: 1024px) {
+
+  .contact-header img {
+    width:70%;
+    height:auto;
+  }
 
   .contactform {
     width:40vw;

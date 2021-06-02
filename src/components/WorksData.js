@@ -1,6 +1,7 @@
 export const WorksData = [ 
     {
         title: 'bitch.',
+        subtitle: 'subtitle',
         path: '/',
         cName: 'works-it',
         pic: 'https://via.placeholder.com/200x230'
@@ -8,6 +9,7 @@ export const WorksData = [
 
     {
         title: 'bigger bitch.',
+        subtitle: 'subtitle',
         path: '/',
         cName: 'works-it',
         pic: 'https://via.placeholder.com/200x230'
@@ -15,6 +17,7 @@ export const WorksData = [
 
     {
         title: 'bigger bitch.',
+        subtitle: 'subtitle',
         path: '/',
         cName: 'works-it',
         pic: 'https://via.placeholder.com/200x230'
@@ -22,32 +25,21 @@ export const WorksData = [
 
     {
         title: 'bigger bitch.',
+        subtitle: 'subtitle',
         path: '/',
         cName: 'works-it',
         pic: 'https://via.placeholder.com/200x230'
     },
     {
         title: 'bigger bitch.',
+        subtitle: 'subtitle',
         path: '/',
         cName: 'works-it',
         pic: 'https://via.placeholder.com/200x230'
     },
     {
         title: 'bigger bitch.',
-        path: '/',
-        cName: 'works-it',
-        pic: 'https://via.placeholder.com/200x230'
-    },
-
-    {
-        title: 'bigger bitch.',
-        path: '/',
-        cName: 'works-it',
-        pic: 'https://via.placeholder.com/200x230'
-    },
-
-    {
-        title: 'bigger bitch.',
+        subtitle: 'subtitle',
         path: '/',
         cName: 'works-it',
         pic: 'https://via.placeholder.com/200x230'
@@ -55,24 +47,44 @@ export const WorksData = [
 
     {
         title: 'bigger bitch.',
+        subtitle: 'subtitle',
+        path: '/',
+        cName: 'works-it',
+        pic: 'https://via.placeholder.com/200x230'
+    },
+
+    {
+        title: 'bigger bitch.',
+        subtitle: 'subtitle',
+        path: '/',
+        cName: 'works-it',
+        pic: 'https://via.placeholder.com/200x230'
+    },
+
+    {
+        title: 'bigger bitch.',
+        subtitle: 'subtitle',
         path: '/',
         cName: 'works-it',
         pic: 'https://via.placeholder.com/200x230'
     },
     {
         title: 'bigger bitch.',
+        subtitle: 'subtitle',
         path: '/',
         cName: 'works-it',
         pic: 'https://via.placeholder.com/200x230'
     },
     {
         title: 'bigger bitch.',
+        subtitle: 'subtitle',
         path: '/',
         cName: 'works-it',
         pic: 'https://via.placeholder.com/200x230'
     },
     {
         title: 'bigger bitch.',
+        subtitle: 'subtitle',
         path: '/',
         cName: 'works-it',
         pic: 'https://via.placeholder.com/200x230'
