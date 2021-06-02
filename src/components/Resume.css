@@ -31,9 +31,9 @@
 .resume-col-two {
     padding:25px;
     padding-top:50px;
-    width:30vw;
-    min-width:200px;
+    width:365px;
     min-height:300px;
+    margin:0 auto;
 }
 
 .resume-col-three {
@@ -54,14 +54,16 @@
 
 .resume-col-five {
     padding:25px;
-    width:30vw;
-    min-width:200px;
+    padding-top:50px;
+    width:365px;
     min-height:300px;
+    margin:0 auto;
+    margin-top:-25px;
 }
 
 .resume-title-a {
     width:100%;
-    height:39px;
+    height:51px;
     overflow:visible;
     border-bottom:7px solid rgba(229,194,143,0.8);
     margin-bottom:30px;
@@ -73,8 +75,8 @@
 .resume-title-b {
     width:100%;
     overflow:visible;
-    height:9px;
-    border-bottom:45px solid #a5514a;
+    height:8px;
+    border-bottom:54px solid #a5514a;
     margin-bottom:30px;
     transition:1200ms;
     padding:0px 8px;
@@ -83,13 +85,13 @@
 }
 
 .resume-title-a:hover {
-    height:9px;
-    border-bottom:45px solid #c6635c;
+    height:8px;
+    border-bottom:58px solid #c6635c;
     transition:1200ms;
 }
 
 .resume-title-b:hover {
-    height:39px;
+    height:50px;
     border-bottom:7px solid rgba(229,194,143,0.8);
     color:#fff;
     text-shadow:2px 2px #000;
@@ -97,19 +99,21 @@
 }
 
 .resume-container h1 {
-    margin-top:;
     font-family:'MorangaBoldItalic';
+    font-size:42px;
 }
 
 .resume-col-one ul,.resume-col-four ul {
     list-style-type: none;
     border-left:2px solid#c6635c;
-    margin-left:15px;
+    margin-left:35px;
+
 }
 
 .resume-col-one li,.resume-col-four li {
     margin-left:30px;
     padding-bottom:20px;
+    width:45vw;
 }
 
 .resume-col-one li:last-of-type,.resume-col-four li:last-of-type {
@@ -128,7 +132,7 @@
 
 .resume-col-one span,.resume-col-four span {
     font-family:'MorangaBold';
-    font-size:20px;
+    font-size:25px;
     line-height:5px;
     color:#c6635c;
     text-shadow:1px 1px #86332d;
@@ -154,15 +158,165 @@
 .resume-col-one em,.resume-col-four em {
     font-family:'GTWalsheimConBo';
     color:#adadad;
+    font-size:17px;
 }
 
 .resume-col-one i,.resume-col-four i {
     font-family:'GTWalsheimConReg';
-    font-size:13px;
+    font-size:14px;
     color:#86332d;
 }
 
 .resume-col-one strong,.resume-col-four strong {
     font-family:'GTWalsheimConBold';
     color:#505563;
+    font-size:17px;
+}
+
+.resume-skill,.resume-skill-b,.resume-skill-c {
+    width:95px;
+    display:inline-block;
+    text-align:center;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:10px;
+    font-family:'GTWalsheimConBold';
+    color:#fff;
+    text-shadow:1px 1px #000;
+    background:rgba(255,255,255,0.1);
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:8px;
+    transition:1000ms;
+    font-size:14px;
+}
+
+.resume-skill-b {
+    width:147px;
+}
+
+.resume-skill-c {
+    width:100%;
+}
+
+.resume-skill-c .resume-icon {
+    font-size:40px;
+
+}
+
+hr {
+
+    opacity:.02px;
+    width:85%;
+    margin:0 auto;
+    margin-bottom:20px;
+    margin-top:10px;
+}
+
+.resume-skill:hover,.resume-skill-b:hover,.resume-skill-c:hover {
+    background:rgba(229,194,143,1);
+    transition:1000ms;
+}
+
+.resume-skill:hover .resume-icon,.resume-skill-b:hover .resume-icon,.resume-skill-c:hover .resume-icon {
+    transition:1000ms;
+    color:rgba(80,85,99,1);
+}
+
+.resume-icon {
+    text-align:center;
+    font-size:30px;
+    color:rgba(229,194,143,1);
+    transition:1000ms;
+}
+
+.resume-skill-c i {
+    font-family:'GTWalsheimConReg';
+    letter-spacing:2px;
+    text-transform:uppercase;
+    font-size:12px;
+}
+
+@media only screen and (max-width: 1216px) {
+
+    .resume-col-one,.resume-col-four {
+        width:100vw;
+        padding:100px 200px;
+    }
+
+    .resume-col-one ul,.resume-col-four ul {
+        list-style-type: none;
+        border-left:2px solid#c6635c;
+        margin-left:55px;
+    
+    }
+
+    .resume-col-one li,.resume-col-four li {
+        margin-left:30px;
+        padding-bottom:20px;
+        width:55vw;
+    }
+
+    .resume-skill {
+        width:142px;
+    }
+
+    hr {
+        margin-top:30px;
+        margin-bottom:40px;
+    }
+
+    .resume-skill-b,.resume-skill-c {
+        width:243px;
+    }
+    
+    .resume-col-two,.resume-col-five {
+        width:100vw;
+        padding:100px 200px;
+    }
+
+}
+
+@media only screen and (max-width: 850px) {
+
+    .resume-title-a,.resume-title-b {
+        text-align:center;
+    }
+
+    .resume-col-five .resume-title-b {
+        margin-top:25px;
+    }
+
+    .resume-col-one,.resume-col-four {
+        width:100vw;
+        padding:20px 20px;
+    }
+
+    .resume-col-one ul,.resume-col-four ul {
+        list-style-type: none;
+        border-left:2px solid#c6635c;
+        margin-left:15px;
+    
+    }
+
+    .resume-col-one li,.resume-col-four li {
+        margin-left:30px;
+        padding-bottom:20px;
+        width:85%;
+    }
+
+    .resume-skill,.resume-skill-b,.resume-skill-c {
+        width:30%;
+    }
+
+    hr {
+        margin-top:30px;
+        margin-bottom:40px;
+    }
+    
+    .resume-col-two,.resume-col-five {
+        width:100vw;
+        padding:20px 20px;
+    }
+
 }

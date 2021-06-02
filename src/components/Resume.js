@@ -1,13 +1,9 @@
 import React from 'react';
 import './Resume.css';
-import * as FiIcons from "react-icons/fi";
 import * as FaIcons from "react-icons/fa";
-import * as DiIcons from "react-icons/di";
 import * as SiIcons from "react-icons/si";
 import * as GiIcons from "react-icons/gi";
-import * as AiIcons from "react-icons/ai";
-import * as BiIcons from "react-icons/bi";
-import FloralIcon from '../images/floralicon.png';
+import * as MdIcons from "react-icons/md";
 
 function Resume() {
     return (
@@ -95,9 +91,158 @@ function Resume() {
                     <div className="resume-title-b">
                         <h1>&#60; Skills /&#62;</h1>
                     </div>
-                    heyhey<br />
-                    heyhey<br />
-                    heyhey<br />
+
+                    <div className="resume-skill">
+                        <div className="resume-icon">
+                            <FaIcons.FaPaintBrush/>
+                        </div>
+                        Design
+                    </div>
+
+                    <div className="resume-skill">
+                        <div className="resume-icon">
+                            <FaIcons.FaLaptopCode/>
+                        </div>
+                        HTML5
+                    </div>
+
+                    <div className="resume-skill">
+                        <div className="resume-icon">
+                            <FaIcons.FaRegFileCode/>
+                        </div>
+                        CSS
+                    </div>
+
+                    <div className="resume-skill">
+                        <div className="resume-icon">
+                            <GiIcons.GiCoffeeCup/>
+                        </div>
+                        Javascript
+                    </div>
+
+                    <div className="resume-skill">
+                        <div className="resume-icon">
+                            <GiIcons.GiBookshelf/>
+                        </div>
+                        Writing
+                    </div>
+
+                    <div className="resume-skill">
+                        <div className="resume-icon">
+                            <GiIcons.GiSpellBook/>
+                        </div>
+                        Storytelling
+                    </div>
+
+                    <div className="resume-skill">
+                        <div className="resume-icon">
+                            <FaIcons.FaUserTag/>
+                        </div>
+                        Marketing
+                    </div>
+
+                    <div className="resume-skill">
+                        <div className="resume-icon">
+                            <FaIcons.FaReact/>
+                        </div>
+                        React
+                    </div>
+
+                    <div className="resume-skill">
+                        <div className="resume-icon">
+                            <SiIcons.SiCodecademy/>
+                        </div>
+                        C / C++
+                    </div>
+
+                    <div className="resume-skill">
+                        <div className="resume-icon">
+                            <SiIcons.SiAdobephotoshop/>
+                        </div>
+                        Photoshop
+                    </div>
+
+                    <div className="resume-skill">
+                        <div className="resume-icon">
+                            <SiIcons.SiAdobepremiere/>
+                        </div>
+                        Premiere
+                    </div>
+
+                    <div className="resume-skill">
+                        <div className="resume-icon">
+                            <SiIcons.SiAdobedreamweaver/>
+                        </div>
+                        Dreamweaver
+                    </div>
+
+                    <div className="resume-skill">
+                        <div className="resume-icon">
+                            <SiIcons.SiAdobeillustrator/>
+                        </div>
+                        Illustrator
+                    </div>
+
+                    <div className="resume-skill">
+                        <div className="resume-icon">
+                            <SiIcons.SiAdobeindesign/>
+                        </div>
+                        InDesign
+                    </div>
+
+                    <div className="resume-skill">
+                        <div className="resume-icon">
+                            <SiIcons.SiAdobexd/>
+                        </div>
+                        Adobe XD
+                    </div>
+
+    
+
+                <hr />
+
+                <div className="resume-skill-b">
+                        <div className="resume-icon">
+                            <GiIcons.GiPencilRuler/>
+                        </div>
+                        Creativity
+                    </div>
+
+                    <div className="resume-skill-b">
+                        <div className="resume-icon">
+                            <MdIcons.MdSpeakerNotes/>
+                        </div>
+                        Communication
+                    </div>
+
+                    <div className="resume-skill-b">
+                        <div className="resume-icon">
+                            <GiIcons.GiMagnifyingGlass/>
+                        </div>
+                        Problem solving
+                    </div>
+
+                    <div className="resume-skill-b">
+                        <div className="resume-icon">
+                            <MdIcons.MdThumbUp/>
+                        </div>
+                        Adaptability
+                    </div>
+
+                    <div className="resume-skill-b">
+                        <div className="resume-icon">
+                            <GiIcons.GiGlassHeart/>
+                        </div>
+                        Empathy
+                    </div>
+
+                    <div className="resume-skill-b">
+                        <div className="resume-icon">
+                            <FaIcons.FaPeopleCarry/>
+                        </div>
+                        Collaboration
+                    </div>
+
                 </div>
 
                 <div className="resume-col-four">
@@ -152,9 +297,29 @@ function Resume() {
                     <div className="resume-title-b">
                         <h1>&#60; Awards /&#62;</h1>
                     </div>
-                    heyhey<br />
-                    heyhey<br />
-                    heyhey<br />
+                    <div className="resume-skill-c">
+                        <div className="resume-icon">
+                            <GiIcons.GiTrophyCup/>
+                        </div>
+                        ADDY Awards 2020
+                        <br/><i>(silver #1, won)</i>
+                    </div>
+
+                    <div className="resume-skill-c">
+                        <div className="resume-icon">
+                            <GiIcons.GiTrophyCup/>
+                        </div>
+                        ADDY Awards 2020
+                        <br/><i>(silver #2, won)</i>
+                    </div>
+
+                    <div className="resume-skill-c">
+                        <div className="resume-icon">
+                            <GiIcons.GiTrophyCup/>
+                        </div>
+                        ADDY Awards 2020
+                        <br/><i>(silver #3, won)</i>
+                    </div>
                 </div>
 
             </div>
