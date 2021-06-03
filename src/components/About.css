@@ -14,3 +14,117 @@
     text-shadow:3px 3px #000;
 
 }
+
+.about-info {
+    width:35vw;
+    margin:0 auto;
+    font-family:'GTWalsheimReg';
+    font-size:13px;
+    line-height:18px;
+    border-radius:0px 50px;
+    border:3px solid rgba(229,194,143,0.6);
+    padding:40px;
+    transition:600ms;
+}
+
+.about-info h1 {
+    font-family:'MorangaBoldItalic';
+    color:rgba(229,194,143,1);
+    text-shadow:2px 2px #000;
+    font-size:35px;
+    margin-bottom:25px;
+}
+
+.about-info iconss {
+    font-size:25px;
+    word-spacing:10px;
+    margin-right:7px;
+}
+
+.about {
+
+    padding:150px 0px;
+}
+
+.about i {
+    font-family:'GTWalsheimLiBo';
+    font-weight:bold;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .about-info {
+        width:55vw;
+        font-size:17px;
+        line-height:21px;
+        padding:60px;
+    }
+
+    .about-info h1 {
+        font-size:40px;
+    }
+
+    .about-info iconss {
+        font-size:30px;
+    }
+
+}
+
+@media only screen and (max-width: 1199px) {
+    .about-info {
+        width:48vw;
+        font-size:14px;
+        line-height:21px;
+        padding:60px;
+    }
+
+    .about-info h1 {
+        font-size:35px;
+    }
+
+    .about-info iconss {
+        font-size:25px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .about-info {
+        width:58vw;
+        font-size:14px;
+        line-height:21px;
+        padding:60px;
+    }
+
+    .about-info h1 {
+        font-size:35px;
+    }
+
+    .about-info iconss {
+        font-size:25px;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    .about-info {
+        width:90vw;
+        font-size:14px;
+        line-height:21px;
+        padding:30px;
+    }
+
+    .about-info h1 {
+        font-size:35px;
+    }
+
+    .about-info iconss {
+        font-size:25px;
+    }
+
+    .about {
+
+        padding:40px 0px;
+    }
+
+}

@@ -21,8 +21,7 @@ function Works() {
             return (
 
                 <Link key={index} to={item.path}>
-                <div className={item.cName}>
-                    <img src={item.pic} />
+                <div className={item.cName}  style={{ backgroundImage: `url(${item.pic})` }}>
                         <div className="works-title">
                         <h1>{item.title}</h1>
                         <p>{item.subtitle}</p>

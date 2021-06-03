@@ -3,7 +3,6 @@ import emailjs from 'emailjs-com';
 import './Contact.css';
 import { init } from 'emailjs-com';
 import FullLogo from '../images/thelogo.png';
-import ResumeHeader from "../images/floralhead.png";
 init("user_pZvo8NpRhr3HgLXbkfSJ2");
 
 
@@ -26,7 +25,7 @@ export default function Contact() {
   
   <>
   <div className="contact-header">
-  <div className="contact-tit"><img src={FullLogo}/>
+  <div className="contact-tit"><img src={FullLogo} alt=""/>
   <h2>Get in touch! Shoot me an email &<br/>i'll get back to you within 48 hours.</h2></div>
 </div>
       <div className="contactform">

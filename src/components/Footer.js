@@ -10,7 +10,7 @@ function Footer() {
             © 2021 Orpheus Designs. <i>Design, building, marketing, and more.</i> All rights reserved.
             <p><Link to="/contact" className="tocontact">contact info</Link></p>
 
-            <img src={MyLogo}/>
+            <img src={MyLogo} alt=""/>
             
         </div>
     )

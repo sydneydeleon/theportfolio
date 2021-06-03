@@ -8,11 +8,11 @@ function Home() {
         <>
         <div className="logoHeader">
             <div className="logomobile">
-                <img src={MobileLogo} />
+                <img src={MobileLogo} alt="" />
             </div>
 
             <div className="logodesktop">
-                <img src={FullLogo} />
+                <img src={FullLogo} alt="" />
             </div>
         </div>
         

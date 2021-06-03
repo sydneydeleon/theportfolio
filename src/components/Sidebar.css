@@ -213,7 +213,7 @@ li {
   @media only screen and (min-width: 901px) {
 
     .nav-text a {
-        font-size:5rem;
+        font-size:6rem;
     }
 
     .nav-text {
@@ -223,14 +223,15 @@ li {
     .nav-text:hover .onelinkbg,
     .nav-text:hover .twolinkbg,
     .nav-text:hover .threelinkbg {
-    width:19.5rem;
+    width:24rem;
     transition:1200ms;
     }
 
     .nav-text:hover .fourlinkbg,
     .nav-text:hover .fivelinkbg {
-    width:24rem;
+    width:28.5rem;
     transition:1200ms;
 }
   
   }
+
