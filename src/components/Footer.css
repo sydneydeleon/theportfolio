@@ -1,4 +1,4 @@
-.footer {
+.portfolio-footer {
     background:rgba(80,85,99,1);
     width:100vw;
     position:relative;
@@ -14,15 +14,15 @@
     overflow:hidden;
 }
 
-.footer i {
+.portfolio-footer i {
     font-family:'MorangaLiIt';
 }
 
-.footer p {
+.portfolio-footer p {
     margin-top:30px;
 }
 
-.footer a {
+.portfolio-footer a {
     background:rgba(255,255,255,0.2);
     padding:8px 20px;
     border-radius:15px;
@@ -35,14 +35,14 @@
     transition:1200ms;
 }
 
-.footer a:hover {
+.portfolio-footer a:hover {
     background-color:rgba(189,66,58,.8);
     text-shadow:2px 2px rgba(80,85,99,1);
     transition:1200ms;
     font-family:'MorangaBoldItalic';
 }
 
-.footer img {
+.portfolio-footer img {
     position:absolute;
     opacity:.2;
     left:-10px;
@@ -51,7 +51,7 @@
 
 @media only screen and (max-width: 356px) {
 
-    .footer a {
+    .portfolio-footer a {
         font-size:1rem;
     }
 }

@@ -1,8 +1,8 @@
-.resume-container {
+.portfolio-resume-container {
     width:100vw;
 }
 
-.resume-header {
+.portfolio-resume-header {
     width:100vw;
     height:400px;
     background:rgba(80,85,99,1);
@@ -12,14 +12,13 @@
     font-size:90px;
 }
 
-.resume-tit {
+.portfolio-resume-title {
     font-family:'MorangaBoldItalic';
     color:#fff;
     text-shadow:3px 3px #000;
-
 }
 
-.resume-col-container {
+.portfolio-resume-columns {
     width:100vw;
     background:rgba(80,85,99,.9);
     flex-wrap:wrap;
@@ -28,7 +27,7 @@
     display:flex;
 }
 
-.resume-col-one {
+.portfolio-resume-column-a {
     padding:25px;
     padding-left:60px;
     padding-right:60px;
@@ -39,7 +38,7 @@
     background:#fff;
 }
 
-.resume-col-two {
+.portfolio-resume-column-b {
     padding:25px;
     padding-top:50px;
     width:365px;
@@ -47,13 +46,7 @@
     margin:0 auto;
 }
 
-.resume-col-three {
-    padding:25px;
-    width:86vw;
-    min-height:300px;
-}
-
-.resume-col-four {
+.portfolio-resume-column-c {
     padding:25px;
     padding-left:60px;
     padding-right:60px;
@@ -63,7 +56,7 @@
     background:#fff;
 }
 
-.resume-col-five {
+.portfolio-resume-column-d {
     padding:25px;
     padding-top:50px;
     width:365px;
@@ -72,7 +65,7 @@
     margin-top:-25px;
 }
 
-.resume-title-a {
+.portfolio-resume-odd-title {
     width:100%;
     height:51px;
     overflow:visible;
@@ -83,7 +76,7 @@
     text-shadow:2px 2px #fff;
 }
 
-.resume-title-b {
+.portfolio-resume-even-title {
     width:100%;
     overflow:visible;
     height:8px;
@@ -95,13 +88,13 @@
     text-shadow:2px 2px #000;
 }
 
-.resume-title-a:hover {
+.portfolio-resume-odd-title:hover {
     height:8px;
     border-bottom:58px solid #c6635c;
     transition:1200ms;
 }
 
-.resume-title-b:hover {
+.portfolio-resume-even-title:hover {
     height:50px;
     border-bottom:7px solid rgba(229,194,143,0.8);
     color:#fff;
@@ -109,30 +102,30 @@
     transition:1200ms;
 }
 
-.resume-container h1 {
+.portfolio-resume-container h1 {
     font-family:'MorangaBoldItalic';
     font-size:42px;
 }
 
-.resume-col-one ul,.resume-col-four ul {
+.portfolio-resume-column-a ul,.portfolio-resume-column-c ul {
     list-style-type: none;
     border-left:2px solid#c6635c;
     margin-left:35px;
 
 }
 
-.resume-col-one li,.resume-col-four li {
+.portfolio-resume-column-a li,.portfolio-resume-column-c li {
     margin-left:30px;
     padding-bottom:20px;
     width:45vw;
 }
 
-.resume-col-one li:last-of-type,.resume-col-four li:last-of-type {
+.portfolio-resume-column-a li:last-of-type,.portfolio-resume-column-c li:last-of-type {
     padding-bottom:5px;
 
 }
 
-.resume-col-one li:before,.resume-col-four li:before {
+.portfolio-resume-column-a li:before,.portfolio-resume-column-c li:before {
     content:"•";
     font-size:60px;
     margin-left:-42px;
@@ -141,7 +134,7 @@
     color:#c6635c;
 }
 
-.resume-col-one span,.resume-col-four span {
+.portfolio-resume-column-a span,.portfolio-resume-column-c span {
     font-family:'MorangaBold';
     font-size:25px;
     line-height:5px;
@@ -149,7 +142,7 @@
     text-shadow:1px 1px #86332d;
 }
 
-.resume-col-one p,.resume-col-four p {
+.portfolio-resume-column-a p,.portfolio-resume-column-c p {
     padding-top:8px;
     padding-bottom:15px;
     font-size:14px;
@@ -158,7 +151,7 @@
     line-height:20px;
 }
 
-.resume-col-one b:before,.resume-col-four b:before {
+.portfolio-resume-column-a b:before,.portfolio-resume-column-c b:before {
     content:"•";
     font-size:20px;
     margin-left:-13px;
@@ -166,25 +159,25 @@
     position:absolute;
 }
 
-.resume-col-one em,.resume-col-four em {
+.portfolio-resume-column-a em,.portfolio-resume-column-c em {
     font-family:'GTWalsheimConBo';
     color:#adadad;
     font-size:17px;
 }
 
-.resume-col-one i,.resume-col-four i {
+.portfolio-resume-column-a i,.portfolio-resume-column-c i {
     font-family:'GTWalsheimConReg';
     font-size:14px;
     color:#86332d;
 }
 
-.resume-col-one strong,.resume-col-four strong {
+.portfolio-resume-column-a strong,.portfolio-resume-column-c strong {
     font-family:'GTWalsheimConBold';
     color:#505563;
     font-size:17px;
 }
 
-.resume-skill,.resume-skill-b,.resume-skill-c {
+.portfolio-resume-skill-a,.portfolio-resume-skill-b,.portfolio-resume-skill-c {
     width:95px;
     display:inline-block;
     text-align:center;
@@ -202,20 +195,20 @@
     font-size:14px;
 }
 
-.resume-skill-b {
+.portfolio-resume-skill-b {
     width:147px;
 }
 
-.resume-skill-c {
+.portfolio-resume-skill-c {
     width:100%;
 }
 
-.resume-skill-c .resume-icon {
+.portfolio-resume-skill-c .resume-icon {
     font-size:40px;
 
 }
 
-hr {
+.portfolio-resume-columns hr {
 
     opacity:.02px;
     width:85%;
@@ -224,12 +217,12 @@ hr {
     margin-top:10px;
 }
 
-.resume-skill:hover,.resume-skill-b:hover,.resume-skill-c:hover {
+.portfolio-resume-skill-a:hover,.portfolio-resume-skill-b:hover,.portfolio-resume-skill-c:hover {
     background:rgba(229,194,143,1);
     transition:1000ms;
 }
 
-.resume-skill:hover .resume-icon,.resume-skill-b:hover .resume-icon,.resume-skill-c:hover .resume-icon {
+.portfolio-resume-skill-a:hover .resume-icon,.portfolio-resume-skill-b:hover .resume-icon,.portfolio-resume-skill-c:hover .resume-icon {
     transition:1000ms;
     color:rgba(80,85,99,1);
 }
@@ -241,7 +234,7 @@ hr {
     transition:1000ms;
 }
 
-.resume-skill-c i {
+.portfolio-resume-skill-c i {
     font-family:'GTWalsheimConReg';
     letter-spacing:2px;
     text-transform:uppercase;
@@ -250,54 +243,54 @@ hr {
 
 @media only screen and (max-width: 415px) {
 
-    .resume-col-one,.resume-col-four {
+    .portfolio-resume-column-a,.portfolio-resume-column-c {
         width:100vw;
     }
 
-    .resume-col-two,.resume-col-five {
+    .portfolio-resume-column-b,.portfolio-resume-column-d {
         width:100vw;
     }
 
-    .resume-col-one ul,.resume-col-four ul {
+    .portfolio-resume-column-a ul,.portfolio-resume-column-c ul {
         margin-left:0px;
     }
     
-    .resume-col-one li,.resume-col-four li {
+    .portfolio-resume-column-a li,.portfolio-resume-column-c li {
         width:70vw;
     }
 
-    .resume-title-a {
+    .portfolio-resume-odd-title {
         width:100%;
         height:48px;
     }
     
-    .resume-title-b {
+    .portfolio-resume-even-title {
         width:100%;
         height:8px;
     }
     
-    .resume-title-a:hover {
+    .portfolio-resume-odd-title:hover {
         height:8px;
     }
     
-    .resume-title-b:hover {
+    .portfolio-resume-even-title:hover {
         height:47px;
     }
 
-    .resume-container h1 {
+    .portfolio-resume-container h1 {
         font-size:38px;
         text-align:center;
     }
 
-    .resume-skill {
+    .portfolio-resume-skill-a {
         width:98px;
     }
 
-    .resume-skill-b {
+    .portfolio-resume-skill-b {
         width:152px;
     }
 
-    .resume-skill-c {
+    .portfolio-resume-skill-c {
         width:318px;
     }
 
@@ -305,29 +298,29 @@ hr {
 
 @media only screen and (max-width: 1216px) {
 
-    .resume-col-one,.resume-col-four {
+    .portfolio-resume-column-a,.portfolio-resume-column-c {
         width:100vw;
         padding:50px 100px;
     }
 
-    .resume-col-two,.resume-col-five {
+    .portfolio-resume-column-b,.portfolio-resume-column-d {
         padding:90px 0px;
         width:611px;
     }
 
-    .resume-skill {
+    .portfolio-resume-skill-a {
         width:111.5px;
     }
 
-    .resume-skill-b {
+    .portfolio-resume-skill-b {
         width:192.5px;
     }
 
-    .resume-skill-c {
+    .portfolio-resume-skill-c {
         width:98.5%;
     }
 
-    .resume-col-one ul,.resume-col-four ul {
+    .portfolio-resume-column-a ul,.portfolio-resume-column-c ul {
         margin-left:110px;
     }
 
@@ -335,11 +328,11 @@ hr {
 
 @media only screen and (max-width: 960px) {
 
-    .resume-col-one ul,.resume-col-four ul {
+    .portfolio-resume-column-a ul,.portfolio-resume-column-c ul {
         margin-left:50px;
     }
 
-    .resume-col-one li,.resume-col-four li {
+    .portfolio-resume-column-a li,.portfolio-resume-column-c li {
         width:60vw;
     }
 
@@ -347,34 +340,34 @@ hr {
 
 @media only screen and (max-width: 653px) {
 
-    .resume-col-one,.resume-col-four {
+    .portfolio-resume-column-a,.portfolio-resume-column-c {
         width:100vw;
         padding:50px 50px;
     }
 
-    .resume-col-two,.resume-col-five {
+    .portfolio-resume-column-b,.portfolio-resume-column-d {
         padding:90px 0px;
         width:400px;
         
     }
 
-    .resume-skill {
+    .portfolio-resume-skill-a {
         width:123px;
     }
 
-    .resume-skill-b {
+    .portfolio-resume-skill-b {
         width:190px;
     }
 
-    .resume-skill-c {
+    .portfolio-resume-skill-c {
         width:98%;
     }
 
-    .resume-col-one ul,.resume-col-four ul {
+    .portfolio-resume-column-a ul,.portfolio-resume-column-c ul {
         margin-left:30px;
     }
 
-    .resume-col-one li,.resume-col-four li {
+    .portfolio-resume-column-a li,.portfolio-resume-column-c li {
         width:70vw;
     }
 
@@ -382,38 +375,38 @@ hr {
 
 @media only screen and (max-width: 450px) {
 
-    .resume-col-one,.resume-col-four {
+    .portfolio-resume-column-a,.portfolio-resume-column-c {
         width:100vw;
         padding:50px 50px;
     }
 
-    .resume-col-two,.resume-col-five {
+    .portfolio-resume-column-b,.portfolio-resume-column-d {
         padding:90px 0px;
         width:305px;
         
     }
 
-    .resume-skill {
+    .portfolio-resume-skill-a {
         width:91px;
     }
 
-    .resume-skill-b {
+    .portfolio-resume-skill-b {
         width:142px;
     }
 
-    .resume-skill-c {
+    .portfolio-resume-skill-c {
         width:98%;
     }
 
-    .resume-col-one ul,.resume-col-four ul {
+    .portfolio-resume-column-a ul,.portfolio-resume-column-c ul {
         margin-left:10px;
     }
 
-    .resume-col-one li,.resume-col-four li {
+    .portfolio-resume-column-a li,.portfolio-resume-column-c li {
         width:70vw;
     }
 
-    .resume-header {
+    .portfolio-resume-header {
         font-size:60px;
         height:300px;
     }
@@ -422,38 +415,38 @@ hr {
 
 @media only screen and (max-width: 300px) {
 
-    .resume-col-one,.resume-col-four {
+    .portfolio-resume-column-a,.portfolio-resume-column-c {
         width:100vw;
         padding:30px;
     }
 
-    .resume-col-two,.resume-col-five {
+    .portfolio-resume-column-b,.portfolio-resume-column-d {
         padding:90px 0px;
         width:305px;
         
     }
 
-    .resume-skill {
+    .portfolio-resume-skill-a {
         width:83px;
     }
 
-    .resume-skill-b {
+    .portfolio-resume-skill-b {
         width:129px;
     }
 
-    .resume-skill-c {
+    .portfolio-resume-skill-c {
         width:96%;
     }
 
-    .resume-col-one ul,.resume-col-four ul {
+    .portfolio-resume-column-a ul,.portfolio-resume-column-c ul {
         margin-left:40px;
     }
 
-    .resume-col-one li,.resume-col-four li {
+    .portfolio-resume-column-a li,.portfolio-resume-column-c li {
         width:80vw;
     }
 
-    .resume-header {
+    .portfolio-resume-header {
         font-size:40px;
         height:250px;
     }

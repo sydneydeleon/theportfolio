@@ -1,4 +1,4 @@
-.resume-header {
+.portfolio-about-header {
     width:100vw;
     height:400px;
     background:rgba(80,85,99,1);
@@ -8,14 +8,14 @@
     font-size:90px;
 }
 
-.resume-tit {
+.portfolio-about-tit {
     font-family:'MorangaBoldItalic';
     color:#fff;
     text-shadow:3px 3px #000;
 
 }
 
-.about-info {
+.portfolio-about-info {
     width:35vw;
     margin:0 auto;
     font-family:'GTWalsheimReg';
@@ -27,7 +27,7 @@
     transition:600ms;
 }
 
-.about-info h1 {
+.portfolio-about-info h1 { 
     font-family:'MorangaBoldItalic';
     color:rgba(229,194,143,1);
     text-shadow:2px 2px #000;
@@ -35,94 +35,94 @@
     margin-bottom:25px;
 }
 
-.about-info iconss {
+.portfolio-about-info iconss {
     font-size:25px;
     word-spacing:10px;
     margin-right:7px;
 }
 
-.about {
+.portfolio-about-container {
 
     padding:150px 0px;
 }
 
-.about i {
+.portfolio-about-container i {
     font-family:'GTWalsheimLiBo';
     font-weight:bold;
 }
 
 
 @media only screen and (min-width: 1200px) {
-    .about-info {
+    .portfolio-about-info {
         width:55vw;
         font-size:17px;
         line-height:21px;
         padding:60px;
     }
 
-    .about-info h1 {
+    .portfolio-about-info h1 {
         font-size:40px;
     }
 
-    .about-info iconss {
+    .portfolio-about-info iconss {
         font-size:30px;
     }
 
 }
 
 @media only screen and (max-width: 1199px) {
-    .about-info {
+    .portfolio-about-info {
         width:48vw;
         font-size:14px;
         line-height:21px;
         padding:60px;
     }
 
-    .about-info h1 {
+    .portfolio-about-info h1 {
         font-size:35px;
     }
 
-    .about-info iconss {
+    .portfolio-about-info iconss {
         font-size:25px;
     }
 
 }
 
 @media only screen and (max-width: 900px) {
-    .about-info {
+    .portfolio-about-info {
         width:58vw;
         font-size:14px;
         line-height:21px;
         padding:60px;
     }
 
-    .about-info h1 {
+    .portfolio-about-info h1 {
         font-size:35px;
     }
 
-    .about-info iconss {
+    .portfolio-about-info iconss {
         font-size:25px;
     }
 
 }
 
 @media only screen and (max-width: 420px) {
-    .about-info {
+    .portfolio-about-info {
         width:90vw;
         font-size:14px;
         line-height:21px;
         padding:30px;
     }
 
-    .about-info h1 {
+    .portfolio-about-info h1 {
         font-size:35px;
     }
 
-    .about-info iconss {
+    .portfolio-about-info iconss {
         font-size:25px;
     }
 
-    .about {
+    .portfolio-about-container {
 
         padding:40px 0px;
     }

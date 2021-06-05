@@ -1,4 +1,4 @@
-.resume-header {
+.portfolio-works-header {
     width:100vw;
     height:400px;
     background:rgba(80,85,99,1);
@@ -8,14 +8,14 @@
     font-size:90px;
 }
 
-.resume-tit {
+.portfolio-works-header-title {
     font-family:'MorangaBoldItalic';
     color:#fff;
     text-shadow:3px 3px #000;
 
 }
 
-.works-nav {
+.portfolio-works-subtitle {
     width:100vw;
     text-align:center;
     font-family:'GTWalsheimLiBo';
@@ -32,23 +32,23 @@
     padding-bottom:40px;
 } 
 
-.works-nav b {
+.portfolio-works-subtitle b {
     font-family:'MorangaBold';
     font-size:17px;
     letter-spacing: -0.2px;
     word-spacing:10px;
 }
 
-.works-nav a:hover {
+.portfolio-works-subtitle a:hover {
     font-style:italic;
     border-bottom:3px solid black;
 }
 
-.works-nav a:last-of-type {
+.portfolio-works-subtitle a:last-of-type {
     margin-right:0px;
 }
 
-.works-content {
+.portfolio-works-content {
     width:100%;
     height:auto;
     padding:20px 40px;
@@ -60,7 +60,7 @@
     padding-bottom:80px;
 }
 
-.works-it {
+.portfolio-works-item {
     display:inline-block;
     width:200px;
     height:230px;
@@ -70,7 +70,7 @@
     background-size:cover;
 }
 
-.works-title {
+.portfolio-works-item-title {
     width:200px;
     height:230px;
     background:rgba(229,194,143,0.7);
@@ -85,7 +85,7 @@
     padding:0px;
     color:#fff;
 }
-.works-title p {
+.portfolio-works-item-title p {
     margin-bottom:0px;
     margin-top:0px;
     font-family:'GTWalsheimRegBold';
@@ -93,7 +93,7 @@
     text-shadow:1px 1px #fff;
 
 }
-.works-title h1 {
+.portfolio-works-item-title h1 {
     font-family:'MorangaBoldItalic';
     letter-spacing:0px;
     font-size:21px;
@@ -103,33 +103,33 @@
     padding-bottom:0px;
 }
 
-.works-content a,.works-content a:visited,.works-content a:active  {
+.portfolio-works-content a,.portfolio-works-content a:visited,.portfolio-works-content a:active  {
     color:#fff!important;
 }
 
-.works-it:hover .works-title {
+.portfolio-works-item:hover .portfolio-works-item-title {
     opacity:1;
     transition:500ms;
 }
 
 @media only screen and (max-width: 518px) {
     
-    .works-it {
+    .portfolio-works-item {
         width:310px;
         height:357px;
         margin-bottom:20px;
     }
 
-    .works-title {
+    .portfolio-works-item-title {
         width:310px;
         height:357px;
     }
 
-    .works-nav b {
+    .portfolio-works-subtitle b {
         font-size:23px;
     }
     
-    .works-title h1 {
+    .portfolio-works-item-title h1 {
         letter-spacing:0px;
         font-size:30px;
         padding:0px 20px;
@@ -139,7 +139,7 @@
 
 @media only screen and (min-width: 416px) and (max-width: 768px) {
 
-    .works-nav {
+    .portfolio-works-subtitle {
         padding:40px 150px;
         padding-top:70px;
     }
@@ -148,19 +148,19 @@
 
 @media only screen and (min-width: 416px) and (max-width: 540px) {
 
-    .works-nav {
+    .portfolio-works-subtitle {
         padding:40px 80px;
         padding-top:70px;
     }
 
-    .works-it {
+    .portfolio-works-item {
         width:42vw;
         height:35vh;
         margin-bottom:5px;
         background-size:cover;
     }
 
-    .works-title {
+    .portfolio-works-item-title {
         width:42vw;
         height:35vh;
     }
@@ -169,23 +169,23 @@
 
 @media only screen and (max-width: 415px) {
 
-    .works-nav {
+    .portfolio-works-subtitle {
         padding:20px 10px;
         padding-top:40px;
     }
 
-    .works-nav b {
+    .portfolio-works-subtitle b {
         font-size:18px;
     }
 
-    .works-it {
+    .portfolio-works-item {
         width:100vw;
         height:30vh;
         margin-bottom:5px;
         background-size:cover;
     }
 
-    .works-title {
+    .portfolio-works-item-title {
         width:100vw;
         height:30vh;
     }

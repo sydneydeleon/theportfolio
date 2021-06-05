@@ -6,13 +6,13 @@ import FullLogo from '../images/thelogo.png';
 function Home() {
     return (
         <>
-        <div className="logoHeader">
-            <div className="logomobile">
-                <img src={MobileLogo} alt="" />
+        <div className="portfolio-home-header">
+            <div className="portfolio-home-logo-mobile">
+                <img src={MobileLogo} alt="logo" />
             </div>
 
-            <div className="logodesktop">
-                <img src={FullLogo} alt="" />
+            <div className="portfolio-home-logo-desktop">
+                <img src={FullLogo} alt="logo" />
             </div>
         </div>
         

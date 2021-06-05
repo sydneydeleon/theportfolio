@@ -24,38 +24,51 @@ export default function Contact() {
   return (
   
   <>
-  <div className="contact-header">
-  <div className="contact-tit"><img src={FullLogo} alt=""/>
-  <h2>Get in touch! Shoot me an email &<br/>i'll get back to you within 48 hours.</h2></div>
+  <div className="portfolio-contact-header">
+    <div className="portfolio-contact-title">
+      <img src={FullLogo} alt=""/>
+      <h2>Get in touch! Shoot me an email &<br/>i'll get back to you within 48 hours.</h2>
+    </div>
 </div>
-      <div className="contactform">
-          <div className="contact-right">
-    <form className="contact-form" onSubmit={sendEmail}>
-        <div className="formgroup">
-      <label>Name</label>
-      <input type="text" name="user_name" placeholder="Jane Doe" required />
+
+  <div className="portfolio-contact-form">
+    <div className="portfolio-contact-container">
+      <form className="contact-form" onSubmit={sendEmail}>
+
+        <div className="portfolio-contact-group">
+          <label>Name</label>
+          <input type="text" name="user_name" placeholder="Jane Doe" required />
         </div>
-        <div className="formgroup">
-      <label>Pronouns</label>
-      <input type="text" name="user_pronouns" placeholder="she/her" required />
+
+        <div className="portfolio-contact-group">
+          <label>Pronouns</label>
+          <input type="text" name="user_pronouns" placeholder="she/her" required />
         </div>
-        <div className="formgroup">
-      <label>Phone</label>
-      <input type="text" name="user_phone" placeholder="555 555 5555" />
+
+        <div className="portfolio-contact-group">
+          <label>Phone</label>
+          <input type="text" name="user_phone" placeholder="555 555 5555" />
         </div>
-        <div className="formgroup">
-      <label>Email</label>
-      <input type="text" name="user_email" placeholder="janedoe@gmail.com" required />
+
+        <div className="portfolio-contact-group">
+          <label>Email</label>
+          <input type="text" name="user_email" placeholder="janedoe@gmail.com" required />
       </div>
-      <div className="formgroup">
-      <label>Subject</label>
-      <input type="text" name="user_subject" placeholder="Subject" required />
+
+      <div className="portfolio-contact-group">
+          <label>Subject</label>
+          <input type="text" name="user_subject" placeholder="Subject" required />
       </div>
-      <div className="formgroup">
-      <label>Message</label>
-      <textarea name="user_message" placeholder="Message" required />
-      <button type="submit" value="Send!">Beam me up, Scotty!</button>
+
+      <div className="portfolio-contact-group">
+        <label>Message</label>
+        <textarea name="user_message" placeholder="Message" required />
       </div>
+
+      <button type="submit" value="Send!">
+        Beam me up, Scotty!
+      </button>
+      
     </form>
     
     </div>

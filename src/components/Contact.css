@@ -1,4 +1,4 @@
-.contact-header {
+.portfolio-contact-header {
   width:100vw;
   height:400px;
   background:#cc524a;
@@ -9,30 +9,29 @@
   padding:70px;
 }
 
-.contact-tit {
+.portfolio-contact-title {
   font-family:'MorangaBoldItalic';
   color:#fff;
   text-shadow:3px 3px #000;
-
 }
 
-.contact-tit h2 {
+.portfolio-contact-title h2 {
   text-shadow:1px 1px #000;
 }
 
-.contact-header img {
+.portfolio-contact-header img {
   width:100%;
   height:auto;
 }
 
-.contact-right {
+.portfolio-contact-container {
   display:inline-block;
   width:100%;
   position:relative;
   padding:20px;
 }
 
-.contact-header h2 {
+.portfolio-contact-header h2 {
   font-size:13px;
   font-weight:normal;
   text-align:center;
@@ -42,20 +41,19 @@
 
 }
 
-.contactform {
+.portfolio-contact-form {
   width: 55vw;
   min-height:100vh;
   padding:50px 0px;
   margin: 0 auto;
 }
 
-.formgroup {
+.portfolio-contact-group {
   display:inline-block;
   width:100%;
 }
 
-.formgroup input[type="text"] {
-
+.portfolio-contact-group input[type="text"] {
   background-color: rgba(229,194,143,0.4);
   border:0px;
   border-bottom:2px solid rgba(229,194,143,0.8);
@@ -69,8 +67,7 @@
 }
 
 
-.formgroup textarea {
-
+.portfolio-contact-group textarea {
   background-color: rgba(229,194,143,0.4);
   border:0px;
   border-bottom:2px solid rgba(229,194,143,0.8);
@@ -84,13 +81,13 @@
   font-family:'GTWalsheimLight';
 }
 
-h1 {
+.portfolio-contact-container h1 {
   margin-bottom: 30px;
 }
 
 
 
-label {
+.portfolio-contact-container label {
   font-weight: bold;
   font-size:12px;
   color:#626d8d;
@@ -98,7 +95,7 @@ label {
   font-family:'MorangaBoldItalic';
 }
 
-button {
+.portfolio-contact-container button {
   padding: 20px;
   border: none;
   background-color: rgba(204,82,74,.7);
@@ -118,7 +115,7 @@ button {
   transition:500ms;
 }
 
-button:hover {
+.portfolio-contact-container button:hover {
   background-color: rgba(204,82,74,.9);
   font-style:italic;
   font-size:19px;
@@ -127,24 +124,18 @@ button:hover {
   transition:500ms;
 }
 
-.contact-left img{
-width:100%;
-height:auto;
-padding:20px 0px;
-}
-
 @media only screen and (max-width: 768px) {
 
-  .contact-tit h2 {
+  .portfolio-contact-title h2 {
     text-shadow:1px 1px #000;
     font-size:18px;
   }
 
-  .contactform {
+  .portfolio-contact-form {
     width:100vw;
   }
 
-  .contact-right {
+  .portfolio-contact-container {
     width:90%;
     margin-left:5%;
   }
@@ -153,46 +144,30 @@ padding:20px 0px;
 
 @media only screen and (max-width: 766px) {
 
-  .contactform {
+  .portfolio-contact-form {
     padding:0px 0px;
 
-  }
-  .contact-left h1 {
-    font-size:2.5rem;
-    width:100%;
-  }
-    
-  .contact-left h3 {
-    font-size:1.5rem;
   }
 
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
 
-  .contactform {
+  .portfolio-contact-form {
     width:60vw;
-  }
-
-  .contact-left {
-    border-radius: 5px 5px 0px 0px;
   }
 
 }
 
 @media only screen and (min-width: 1024px) {
 
-  .contact-header img {
+  .portfolio-contact-header img {
     width:70%;
     height:auto;
   }
 
-  .contactform {
+  .portfolio-contact-form {
     width:40vw;
-  }
-
-  .contact-left {
-    border-radius: 5px 5px 0px 0px;
   }
 
 }

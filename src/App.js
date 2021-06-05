@@ -14,7 +14,6 @@ function App() {
       <Router>
       <Sidebar />
       <Switch>
-        
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
         <Route path="/works" component={Works} />

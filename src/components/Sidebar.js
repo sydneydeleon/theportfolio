@@ -11,17 +11,17 @@ function Sidebar() {
     return (
         <>
 
-            <div className="sidebar">
-                <Link to="#" className="menu-bars" onClick={showMenu}>
+            <div className="portfolio-navi-bar">
+                <Link to="#" className="portfolio-navi-icons" onClick={showMenu}>
                     <menuiconspan><FiIcons.FiBarChart2/><br/></menuiconspan>
                     MENU
                 </Link>
             </div>
-            <nav className={sidemenu ? 'nav-menu active' : 'nav-menu'}>
+            <nav className={sidemenu ? 'portfolio-navi-dropdown active' : 'portfolio-navi-dropdown'}>
 
                 <ul className="nav-menu-items" onClick={showMenu}>
-                    <li className="navbar-toggle">
-                        <Link to="#" className="menu-bars">
+                    <li className="portfolio-navi-toggle">
+                        <Link to="#" className="portfolio-navi-icons">
                         <menuiconspan><FiIcons.FiChevronsUp/><br/></menuiconspan>
                         CLOSE
                         </Link>
@@ -31,9 +31,9 @@ function Sidebar() {
 
         return (
 
-            <li key={index} className={item.cName}>
+            <li key={index} className="portfolio-navi-text">
                 <Link to={item.path}>
-                    <div className="linktitle">
+                    <div className="portfolio-navi-link">
                     {item.title}</div>
                     <div className={item.bgColor}>&nbsp;</div>
                 </Link>

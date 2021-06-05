@@ -1,4 +1,4 @@
-.sidebar {
+.portfolio-navi-bar {
     background-color:#e85a50;
     height: 10vh;
     display: flex;
@@ -7,7 +7,7 @@
     position:relative;
 }
 
-.menu-bars {
+.portfolio-navi-icons {
     position: absolute;
     left: 0%;
     right: 0%;
@@ -19,7 +19,7 @@
     line-height:15px;
 }
 
-.navbar-toggle {
+.portfolio-navi-toggle {
     background-color:#fff;
     width:100%;
     height: 80px;
@@ -29,7 +29,7 @@
     margin-bottom:40px;
 }
 
-.navbar-toggle a {
+.portfolio-navi-toggle a {
     font-family:'Alata';
     font-size: .7rem;
     letter-spacing:1px;
@@ -38,7 +38,7 @@
     font-weight:bold;
 }
 
-.sidebar a,.sidebar a:visited {
+.portfolio-navi-bar a,.portfolio-navi-bar a:visited {
     text-decoration: none;
     color:#000;
     font-family:'Alata';
@@ -49,7 +49,7 @@ menuiconspan {
     font-size:1.5rem;
 }
 
-.nav-menu {
+.portfolio-navi-dropdown {
     background-color:#fff;
     width:100vw;
     height: 100vh;
@@ -62,12 +62,12 @@ menuiconspan {
     z-index:99999;
 }
 
-.nav-menu.active {
+.portfolio-navi-dropdown.active {
     top: 0;
     transition: 850ms;
 }
 
-.nav-text {
+.portfolio-navi-text {
     display: inline-block; 
     justify-content: start;
     align-items: center;
@@ -77,7 +77,7 @@ menuiconspan {
     margin-bottom:2rem;
 }
 
-.nav-text a {
+.portfolio-navi-text a {
     text-decoration: none;
     color:#000;
     font-size:3rem;
@@ -87,7 +87,7 @@ menuiconspan {
     align-items:center;
 }
 
-.linktitle {
+.portfolio-navi-link {
     color:#000;
     z-index:99;
     font-family:'MorangaBold';
@@ -96,26 +96,26 @@ menuiconspan {
     transition:3000ms;
 }
 
-.nav-text:hover .linktitle {
+.portfolio-navi-text:hover .portfolio-navi-link {
     font-family:'MorangaBoldItalic';
     transition:3000ms;
 }
 
-.nav-text:hover .onelinkbg,
-.nav-text:hover .twolinkbg,
-.nav-text:hover .threelinkbg {
+.portfolio-navi-text:hover .portfolio-navi-link-a-bg,
+.portfolio-navi-text:hover .portfolio-navi-link-b-bg,
+.portfolio-navi-text:hover .portfolio-navi-link-c-bg {
     width:13rem;
     transition:1200ms;
 }
 
 
-.nav-text:hover .fourlinkbg,
-.nav-text:hover .fivelinkbg {
+.portfolio-navi-text:hover .portfolio-navi-link-d-bg,
+.portfolio-navi-text:hover .portfolio-navi-link-e-bg {
     width:15.7rem;
     transition:1200ms;
 }
 
-.onelinkbg {
+.portfolio-navi-link-a-bg {
     height:1.8rem;
     position:absolute;
     margin-top:.3rem;
@@ -124,7 +124,7 @@ menuiconspan {
     background:rgba(229,194,143,0.5);
 }
 
-.twolinkbg {
+.portfolio-navi-link-b-bg {
     height:1.8rem;
     position:absolute;
     margin-top:.3rem;
@@ -133,7 +133,7 @@ menuiconspan {
     background:rgba(229,194,143,0.8);
 }
 
-.threelinkbg {
+.portfolio-navi-link-c-bg {
     height:1.8rem;
     position:absolute;
     margin-top:.3rem;
@@ -142,7 +142,7 @@ menuiconspan {
     background:rgba(199,97,84,0.7);
 }
 
-.fourlinkbg {
+.portfolio-navi-link-d-bg {
     height:1.8rem;
     position:absolute;
     margin-top:.3rem;
@@ -151,7 +151,7 @@ menuiconspan {
     background:rgba(199,97,84,0.5);
 }
 
-.fivelinkbg {
+.portfolio-navi-link-e-bg {
     height:1.8rem;
     position:absolute;
     margin-top:.3rem;
@@ -160,25 +160,25 @@ menuiconspan {
     background:rgba(80,85,99,0.5);
 }
 
-.nav-menu-items {
+.portfolio-navi-dropdown-items {
     width:100%;
 }
 
-li {
+.nav-menu-items li {
     margin-bottom:10px;
     width:80%;
 }
 
 @media only screen and (min-width: 900px) and (orientation: landscape) {
-    .sidebar {
+    .portfolio-navi-bar {
         height:15vh;
     }
 
-    .nav-text a {
+    .portfolio-navi-text a {
         font-size:1.3rem;
     }
 
-    .nav-text {
+    .portfolio-navi-text {
         height:20px;
         margin-bottom:1rem;
     }
@@ -187,23 +187,23 @@ li {
 
   @media only screen and (max-width: 800px) {
 
-    .nav-text a {
+    .portfolio-navi-text a {
         font-size:4rem;
     }
 
-    .nav-text {
+    .portfolio-navi-text {
         height:55px;
     }
 
-    .nav-text:hover .onelinkbg,
-    .nav-text:hover .twolinkbg,
-    .nav-text:hover .threelinkbg {
+    .portfolio-navi-text:hover .portfolio-navi-link-a-bg,
+    .portfolio-navi-text:hover .portfolio-navi-link-b-bg,
+    .portfolio-navi-text:hover .portfolio-navi-link-c-bg {
     width:16.3rem;
     transition:1200ms;
     }
 
-    .nav-text:hover .fourlinkbg,
-    .nav-text:hover .fivelinkbg {
+    .portfolio-navi-text:hover .portfolio-navi-link-d-bg,
+    .portfolio-navi-text:hover .portfolio-navi-link-e-bg {
     width:20.5rem;
     transition:1200ms;
 }
@@ -212,23 +212,23 @@ li {
 
   @media only screen and (min-width: 901px) {
 
-    .nav-text a {
+    .portfolio-navi-text a {
         font-size:6rem;
     }
 
-    .nav-text {
+    .portfolio-navi-text {
         height:80px;
     }
 
-    .nav-text:hover .onelinkbg,
-    .nav-text:hover .twolinkbg,
-    .nav-text:hover .threelinkbg {
+    .portfolio-navi-text:hover .portfolio-navi-link-a-bg,
+    .portfolio-navi-text:hover .portfolio-navi-link-b-bg,
+    .portfolio-navi-text:hover .portfolio-navi-link-c-bg {
     width:24rem;
     transition:1200ms;
     }
 
-    .nav-text:hover .fourlinkbg,
-    .nav-text:hover .fivelinkbg {
+    .portfolio-navi-text:hover .portfolio-navi-link-d-bg,
+    .portfolio-navi-text:hover .portfolio-navi-link-e-bg {
     width:28.5rem;
     transition:1200ms;
 }

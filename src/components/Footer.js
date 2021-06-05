@@ -5,7 +5,7 @@ import MyLogo from '../images/myLogoIcon.png';
 
 function Footer() {
     return (
-        <div className="footer">
+        <div className="portfolio-footer">
             
             © 2021 Orpheus Designs. <i>Design, building, marketing, and more.</i> All rights reserved.
             <p><Link to="/contact" className="tocontact">contact info</Link></p>

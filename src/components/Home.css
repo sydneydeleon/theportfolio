@@ -1,4 +1,4 @@
-.logoHeader {
+.portfolio-home-header {
     background:#e85a50;
     width:100vw;
     height:90vh;
@@ -7,7 +7,7 @@
     vertical-align: middle;
 }
 
-.logoHeader img {
+.portfolio-home-header img {
     vertical-align: middle;
     display: inline-block;
     width:100%;
@@ -18,18 +18,17 @@
     margin: auto;
 }
  
-.logomobile {
+.portfolio-home-logo-mobile {
     display:none;
 }
 
-.logodesktop {
+.portfolio-home-logo-desktop {
     display:none;
 }
 
 @media only screen and (max-width: 550px) {
 
-    .logomobile {
-
+    .portfolio-home-logo-mobile {
         display:unset;
     }
   
@@ -37,8 +36,7 @@
 
 @media only screen and (min-width: 551px) {
 
-    .logodesktop {
-
+    .portfolio-home-logo-desktop {
         display:unset;
     }
   
