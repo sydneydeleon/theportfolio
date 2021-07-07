@@ -1,5 +1,7 @@
 import React from 'react';
 import './Resume.css';
+import Footer from './Footer';
+import Sidebar from './Sidebar';
 import * as FaIcons from "react-icons/fa";
 import * as SiIcons from "react-icons/si";
 import * as GiIcons from "react-icons/gi";
@@ -7,7 +9,8 @@ import * as MdIcons from "react-icons/md";
 import ResumeHeader from "../images/floralhead.png"
 
 function Resume() {
-    return (
+    return (<>
+        <Sidebar />
         <div className="portfolio-resume-container">
             <div className="portfolio-resume-header" style={{ backgroundImage: `url(${ResumeHeader})` }}>
                 <div className="portfolio-resume-title">Resume</div>
@@ -327,6 +330,7 @@ function Resume() {
             
         
         </div>
+        <Footer /></>
     )
 }
 

@@ -3,6 +3,11 @@
   margin:0;
   padding:0;
   font-family:'GTWalsheimReg',sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 a,a:active,a:visited {
@@ -80,6 +85,16 @@ a,a:active,a:visited {
 }
 
 @font-face {
+  font-family: 'MontBlack';
+  src: local('Montserrat-Black'), url(./fonts/Montserrat-Black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MontBold';
+  src: local('Montserrat-Bold'), url(./fonts/Montserrat-Bold.ttf) format('truetype');
+}
+
+@font-face {
   font-family:"toybox";
   src:url('https://static.tumblr.com/d5muzyw/3iAqs99di/toybox.ttf');
 }
@@ -93,7 +108,6 @@ a,a:active,a:visited {
   font-family: "MoonBold"; 
   src: url('https://dl.dropboxusercontent.com/s/tbrh79amlmbzt1d/MoonBold.otf');
 }
-
 /* @font-face {
   font-family: 'GothamBold';
   src: local('GothamBold'), url(./fonts/GothamBold.ttf) format('truetype');

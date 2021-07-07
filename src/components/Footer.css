@@ -12,6 +12,7 @@
     font-family:'MorangaLi';
     text-shadow:1px 1px #000;
     overflow:hidden;
+    overflow-y:hidden;
 }
 
 .portfolio-footer i {
@@ -20,6 +21,8 @@
 
 .portfolio-footer p {
     margin-top:30px;
+    overflow:hidden;
+    overflow-y:hidden;
 }
 
 .portfolio-footer a {

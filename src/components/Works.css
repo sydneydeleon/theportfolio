@@ -30,6 +30,7 @@
     padding-right:50px;
     padding-top:80px;
     padding-bottom:40px;
+    overflow-y:hidden;
 } 
 
 .portfolio-works-subtitle b {
@@ -62,7 +63,7 @@
 
 .portfolio-works-item {
     display:inline-block;
-    width:200px;
+    width:280px;
     height:230px;
     margin-left:1px;
     margin-right:1px;
@@ -70,8 +71,15 @@
     background-size:cover;
 }
 
+.portfolio-works-item-title span {
+    text-shadow:1px 1px #fff;
+    color:#000;
+    font-size:13px;
+    font-family:'GTWalsheimReg';
+}
+
 .portfolio-works-item-title {
-    width:200px;
+    width:280px;
     height:230px;
     background:rgba(229,194,143,0.7);
     z-index:99999;
@@ -84,9 +92,10 @@
     text-align:center;
     padding:0px;
     color:#fff;
+    padding: 15px;
 }
 .portfolio-works-item-title p {
-    margin-bottom:0px;
+    margin-bottom:5px;
     margin-top:0px;
     font-family:'GTWalsheimRegBold';
     color:#56607c;
@@ -99,8 +108,10 @@
     font-size:21px;
     padding:0px 20px;
     text-shadow:1px 1px #000;
-    margin-bottom:0px;
+    margin-bottom:5px;
     padding-bottom:0px;
+    line-height:110%;
+    overflow-y:hidden;
 }
 
 .portfolio-works-content a,.portfolio-works-content a:visited,.portfolio-works-content a:active  {

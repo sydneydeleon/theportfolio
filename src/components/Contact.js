@@ -1,6 +1,8 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
+import Sidebar from './Sidebar';
+import Footer from './Footer';
 import { init } from 'emailjs-com';
 import FullLogo from '../images/thelogo.png';
 init("user_pZvo8NpRhr3HgLXbkfSJ2");
@@ -24,6 +26,7 @@ export default function Contact() {
   return (
   
   <>
+  <Sidebar />
   <div className="portfolio-contact-header">
     <div className="portfolio-contact-title">
       <img src={FullLogo} alt=""/>
@@ -73,6 +76,7 @@ export default function Contact() {
     
     </div>
     </div>
+    <Footer />
     </>
   );
 }

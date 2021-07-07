@@ -1,10 +1,13 @@
 import React from 'react'
 import './About.css';
+import Footer from './Footer';
+import Sidebar from './Sidebar';
 import ResumeHeader from "../images/floralhead.png";
 import * as GiIcons from "react-icons/gi";
 
 function About() {
     return (<>
+    <Sidebar />
         <div className="portfolio-about-header" style={{ backgroundImage: `url(${ResumeHeader})` }}>
             <div className="portfolio-about-tit">About</div>
         </div>
@@ -19,7 +22,9 @@ function About() {
             </div>
             
             
-        </div></>
+        </div>
+        <Footer /></>
+        
     )
 }
 

@@ -1,0 +1,544 @@
+.horizonsbody {
+  position:absolute;
+  min-height:120vh;
+  width:100vw;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  z-index:-9999999;
+  background:#507050;
+  background:url('./images/leaf.png');
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.horizons-header-desc::-webkit-scrollbar {
+  display: none;
+}
+
+.horizons-header {
+  width:800px;
+  margin:0 auto;
+  z-index:-99;
+}
+
+.horizons-headerimg {
+  width:auto;
+  height:335px;
+  float:left;
+  z-index:-99;
+}
+
+.horizons-header-desc {
+  background:#91a7c3;
+  height:335px;
+  box-sizing:border-box;
+  text-align:justify;
+  padding:30px;
+  overflow:auto;
+  border-bottom:30px solid #91a7c3;
+  color:white;
+  font-size:12px;
+}
+
+.horizons-header-title {
+  background:#4d724d;
+  width:800px;
+  box-sizing:border-box;
+  height:100px;
+  font-family:'MontBlack';
+  color:#456645;
+  font-size:103px;
+  padding-left:0px;
+  overflow:hidden!important;
+  letter-spacing:-7px;
+  padding-top:0px;
+  margin:0 auto;
+  z-index:-999999;
+
+}
+
+.horizons-navi {
+  height: 10vh;
+  background:transparent;
+  display: flex;
+  justify-content:flex-start;
+  align-items:center;
+  position:relative;
+}
+
+.horizons-navi-icons {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  margin: auto;
+  font-size: .7rem;
+  letter-spacing:1px;
+  background: none;
+  text-align:center;
+  line-height:15px;
+}
+
+.horizons-navi-icons-b {
+  position: absolute;
+  top:-18px;
+  padding:4px;
+  padding-bottom:5px;
+  padding-left:9px;
+  padding-right:9px;
+  font-size: 1rem;
+  letter-spacing:1px;
+  background: none;
+  text-align:center;
+  line-height:15px;
+  background:#f78a4a;
+  width:100vw;
+  transition:1000ms;
+}
+
+.horizons-navi-icons-b:hover {
+  top:0px;
+  padding-top:15px;
+  padding-bottom:15px;
+  transition:1000ms;
+}
+
+.horizons-menu-toggle {
+  background:rgba(189,102,69,0.6);
+  width:100%;
+  height: 80px;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom:40px;
+  
+}
+
+.horizons-menu-toggle a {
+  font-family:'Alata';
+  font-size: .7rem;
+  letter-spacing:1px;
+  text-decoration:none;
+  color:#fff;
+  font-weight:bold;
+}
+
+.horizons-navi a,.horizons-navi a:visited {
+  text-decoration: none;
+  color:#fff;
+  font-family:'Alata';
+  font-weight:bold;
+}
+
+
+menuiconspan {
+  font-size:1.5rem;
+}
+
+.horizons-navi-dropdown {
+  background:rgba(189,102,69,1);
+  width:100vw;
+  height: 100vh;
+  display:flex;
+  justify-content:center;
+  position:fixed;
+  top:-150%;
+  left:0;
+  transition: 850ms;
+  z-index:99999;
+}
+
+.horizons-navi-dropdown.active {
+  top: 0;
+  transition: 850ms;
+}
+
+.horizons-navi-text {
+  display: inline-block; 
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height:60px;
+  margin-bottom:2rem;
+  overflow-y:hidden;
+}
+
+.horizons-navi-text a {
+  text-decoration: none;
+  color:#fff;
+  font-size:2rem;
+  width:96%;
+  height:100%;
+  display:flex;
+  align-items:center;
+}
+
+.horizons-navi-link {
+  color:#fff;
+  z-index:99;
+  font-family:'MontBlack';
+  font-weight:normal;
+  margin-left:30px;
+  transition:3000ms;
+  text-shadow:2px 2px rgba(189,102,69,1);
+}
+
+.horizons-navi-dropdown-items {
+  width:100%;
+}
+
+.horizons-menu-items li {
+  margin-bottom:0px;
+  width:100vw;
+  height:8.5vh;
+}
+
+
+.horizons-navi-icons-b a {
+  color:#fff!important;
+}
+
+.horizons-container {
+  background:#ededed;
+  width:800px;
+  margin:0 auto;
+  margin-top:-90px;
+  min-height:10vh;
+  box-sizing:border-box;
+  padding:20px;
+  padding-top:45px;
+  padding-bottom:45px;
+  z-index:99;
+}
+
+.horizons-side h1 {
+  background:#5b875b;
+  padding:5px 10px;
+  padding-bottom:1px;
+  color:#456645;
+  font-family:'mont';
+  font-size:25px;
+  text-align:right;
+  margin-bottom:15px;
+  margin-top:10px;
+}
+
+
+.horizons-side p {
+  padding-left:15px;
+  padding-right:15px;
+  padding-bottom:20px;
+  font-size:12px;
+  line-height:16px;
+}
+
+.horizons-side b {
+  letter-spacing:1px;
+  color:#8b90d3;
+}
+
+.horizons-side {
+  width:230px;
+  background:white;
+  margin-left:25px;
+  box-sizing:border-box;
+  padding-top:8px;
+}
+
+.horizons-side img {
+  width:100%;
+  height:auto;
+}
+
+.horizons-banner {
+  width:450px;
+  background:white;
+  position:absolute;
+  margin-left:293px;
+  margin-top:-432px;
+  box-sizing:border-box;
+  padding:20px;
+  text-align:center;
+  font-family:'MontBold';
+  font-size:28px;
+  color:#e98f58;
+  border-bottom:2px dashed #e98f58;
+}
+
+.horizons-logopic {
+  width:370px;
+  height:auto;
+  position:absolute;
+  margin-left:335px;
+  margin-top:-320px;
+}
+
+.horizons-postcard {
+  width:350px;
+  height:auto;
+  margin-left:25px;
+  margin-top:5px;
+}
+
+.horizons-title {
+  width:350px;
+  margin-left:395px;
+  margin-top:-250px;
+  font-family:'MontBold';
+  font-size:34px;
+  line-height:140%;
+  color:#d28352;
+}
+
+.horizons-title i, .horizons-npctitle i {
+  text-decoration:underline;
+  font-family:'MontBlack';
+  font-style:normal;
+}
+
+.horizons-title span {
+  float:right;
+}
+
+.horizons-bodytext {
+  width:320px;
+  margin-left:415px;
+  margin-top:20px;
+  font-size:13px;
+}
+
+.horizons-bodytext p {
+  margin-bottom:10px;
+}
+
+.horizons-container h2 { 
+  text-align:center;
+  font-family:'mont';
+  text-transform:uppercase;
+  font-size:35px;
+  color:#91a7c3;
+  padding-bottom:10px;
+  border-bottom:2px dashed #91a7c3;
+  margin-bottom:0px;
+}
+
+
+.horizons-personality {
+  font-size:12px;
+  width:340px;
+  float:left;
+  margin:0 auto;
+  margin-right:20px;
+  margin-left:20px;
+  background:white;
+  margin-bottom:35px;
+  height:225px;
+  overflow:scroll;
+  box-sizing:border-box;
+  padding:20px;
+  border-radius:15px;
+  border-bottom:20px solid white;
+}
+
+.horizons-persona {
+  width:520px;
+  box-sizing:border-box;
+  margin-left:132px;
+  margin-bottom:50px;
+  font-size:13px;
+}
+  
+.horizons-persona p {
+  margin-top:-20px;
+  padding-left:30px;
+}
+
+.horizons-personality h1,.horizons-toolcard h1 {
+  background:#719971;
+  color:white;
+  text-align:center;
+  font-size:15px;
+  border-radius: 10px 0px;
+  padding:12px;
+  margin-bottom:10px;
+}
+
+.horizons-container table {
+  width:80%;
+  font-size:14px;
+  margin:0 auto;
+  margin-top:50px;
+  margin-bottom:30px;
+}
+
+.horizons-container th {
+  color:#658d65;padding-bottom:10px;
+  text-align:left;
+  
+}
+
+.horizons-container td {
+  border-top:1px solid white;
+  padding:6px;
+  margin-left:30px;
+}
+
+
+.horizons-switch {
+  width:500px;
+  height:auto;
+  position:relative;
+  margin:0 auto;
+  text-align:center;
+  justify-content:center;
+  margin-left:143px;
+  margin-top:60px;
+  margin-bottom:40px;
+}
+
+.obj {
+  width:520px;
+  border:10px solid white;
+  height:auto;
+  margin:0 auto;
+  margin-left:132px;
+}
+
+.obj:first-of-type {
+  margin-top:70px;
+}
+
+.horizons-objdesc {
+  width:520px;
+  box-sizing:border-box;
+  margin-left:132px;
+  margin-bottom:70px;
+  font-size:13px;
+}
+
+.horizons-objdesc p {
+  margin-top:0px;
+  padding-left:13px;
+  padding-right:10px;
+  margin-bottom:10px;
+}
+
+.horizons-container h6 {
+  background:#8fadd7;
+  padding:7px;
+  color:#fff;
+  font-family:'mont';
+  font-size:20px;
+  margin-top:20px;
+  padding-left:10px;
+  margin-bottom:20px;
+}
+
+.horizons-container ul {
+  margin-left:20px;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+.horizons-container li {
+  margin-bottom:4px;
+  margin-top:4px;
+}
+
+.horizons-container li::before {
+  content:"•";
+  margin-right:8px;
+}
+
+.mc {
+  width:260px;
+  height:auto;
+  margin-left:430px;
+  margin-top:30px;
+}
+
+.npctitle {
+  width:350px;
+  margin-left:75px;
+  margin-top:-250px;
+  font-family:'MontBold';
+  font-size:40px;
+  line-height:140%;
+  color:#d28352;
+  text-align:center;
+}
+
+.npcdesc {
+  height:120px;
+  width:280px;
+  padding-top:20px;
+  font-size:14px;
+  margin-left:85px;
+  text-align:right;
+}
+
+.character {
+  width:100%;
+  padding:30px;
+  padding-left:70px;
+  margin-top:60px;
+  margin-bottom:60px;
+}
+
+.va h5 {
+  text-align:center;
+  font-family:'mont';
+  font-size:30px;
+  width:400px;
+  float:left;
+  color:#d28352;
+  margin-bottom:7px;
+  padding-top:50px;
+}
+
+.va p {
+  width:400px;
+  float:left;
+  padding-right:50px;
+  padding-left:74px;
+  font-size:13px;
+  margin-bottom:100px;
+
+}
+
+.vb p {
+  width:388px;
+  float:left;
+  padding-right:74px;
+  padding-left:50px;
+  font-size:13px;
+  margin-bottom:100px;
+}
+
+.va img {
+  width:250px;
+  height:auto;
+  border:10px solid white;
+  box-sizing:border-box;
+  float:left;
+}
+
+.vb h5 {
+  text-align:center;
+  font-family:'mont';
+  font-size:30px;
+  width:388px;
+  float:left;
+  color:#d28352;
+  margin-bottom:7px;
+  padding-top:50px;
+}
+
+.vb img {
+  width:250px;
+  height:auto;
+  margin-left:390px;
+  border:10px solid white;
+  box-sizing:border-box;
+  float:left;
+  margin-top:-360px;
+}
