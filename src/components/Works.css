@@ -168,7 +168,7 @@
         width:42vw;
         height:35vh;
         margin-bottom:5px;
-        background-size:cover;
+        background-size:contain;
     }
 
     .portfolio-works-item-title {
@@ -193,12 +193,16 @@
         width:100vw;
         height:30vh;
         margin-bottom:5px;
-        background-size:cover;
+        background-size:contain;
     }
 
     .portfolio-works-item-title {
-        width:100vw;
+        width:79vw;
         height:30vh;
+    }
+
+    .portfolio-works-header-title {
+        font-size:5rem;
     }
   
 }

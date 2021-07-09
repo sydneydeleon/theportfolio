@@ -18,6 +18,10 @@ export const HorizonsMenuData = [
     {
         title: 'Meet the characters',
         path: '/sites/newhorizons/characters'
+    },
+    {
+        title: '(Back to portfolio)',
+        path: '/works'
     }
 
 ]

@@ -1,5 +1,5 @@
 import React from 'react'
-import './GravityMenu.css';
+import './Mockups.css';
 
 function ProjGravityMenu() {
     return (

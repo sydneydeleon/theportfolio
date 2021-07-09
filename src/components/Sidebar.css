@@ -192,7 +192,8 @@ menuiconspan {
     }
 
     .portfolio-navi-text {
-        height:55px;
+        height:65px;
+        width:100%;
     }
 
     .portfolio-navi-text:hover .portfolio-navi-link-a-bg,
