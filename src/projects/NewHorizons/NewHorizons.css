@@ -84,7 +84,7 @@
   padding-bottom:5px;
   padding-left:9px;
   padding-right:9px;
-  font-size: 1rem;
+  font-size: 0rem;
   letter-spacing:1px;
   background: none;
   text-align:center;
@@ -99,6 +99,7 @@
   padding-top:15px;
   padding-bottom:15px;
   transition:1000ms;
+  font-size:1.2rem;
 }
 
 .horizons-menu-toggle {
@@ -522,6 +523,8 @@ menuiconspan {
   float:left;
 }
 
+
+
 .vb h5 {
   text-align:center;
   font-family:'mont';
@@ -541,4 +544,242 @@ menuiconspan {
   box-sizing:border-box;
   float:left;
   margin-top:-360px;
+}
+
+@media only screen and (max-width: 450px) {
+
+  .horizonsbody {
+    display:none;
+  }
+  .horizons-header {
+    width:100vw;
+  }
+
+  .horizons-headerimg {
+    width:100vw;
+    height:auto;
+  }
+
+  .horizons-navi-icons-b {
+    font-size: 1rem;
+  }
+
+  .horizons-header-desc {
+    width:100vw;
+    height:160px;
+    padding-top:30px;
+  }
+
+  .horizons-header-title {
+    width:100vw;
+    height:51px;
+    font-size:50px;
+    text-align:center;
+  }
+
+  .horizons-navi-icons-b {
+    top:0px;
+    padding:8px;
+    padding-bottom:9px;
+    padding-left:9px;
+    padding-right:9px;
+    font-size: 1rem;
+    width:100vw;
+  }
+  
+  .horizons-navi-icons-b:hover {
+    top:0px;
+    padding-top:8px;
+    padding-bottom:9px;
+  }
+
+  
+  .horizons-menu-items li {
+    height:10vh;
+  }
+
+  .horizons-container {
+    width:100vw;
+    min-height:130vh;
+  }
+
+  .horizons-side {
+    width:80vw;
+    margin:0 auto;
+    background:transparent;
+    padding-top:20px;
+  }
+
+  .horizons-banner {
+    width:89vw;
+    margin-top:0px;
+    margin:0 auto;
+    padding:20px;
+    font-size:28px;
+  }
+  
+  .horizons-logopic {
+    width:100vw;
+    padding-right:40px;
+    padding-left:0px;
+    position:absolute;
+    margin-left:0px;
+    margin-top:150px;
+  }
+
+  .horizons-postcard {
+    width:80vw;
+    height:auto;
+    padding:7vw 5vw;
+  }
+  
+  .horizons-title {
+    width:90vw;
+    box-sizing:border-box;
+    margin-left:0px;
+    margin-top:0px;
+    font-size:29px;
+  }
+
+  .horizons-bodytext {
+    width:85vw;
+    margin-left:10px;
+    margin-top:0px;
+    font-size:13px;
+    padding:7vw 3vw;
+  }
+
+  .horizons-persona {
+    width:80vw;
+    box-sizing:border-box;
+    margin:0 auto;
+    margin-bottom:20px;
+  }
+
+  .horizons-personality {
+    width:42vw;
+    margin-right:5px;
+    margin-left:5px;
+    margin-bottom:10px;
+    height:225px;
+  }
+
+  .horizons-container h2 { 
+    font-size:35px;
+    padding-bottom:10px;
+    margin-bottom:0px;
+    padding-top:20px;
+    line-height:80%;
+  }
+
+
+  .horizons-container table {
+    width:90%;
+    font-size:14px;
+    margin:0 auto;
+    margin-top:50px;
+    margin-bottom:30px;
+  }
+  
+  .horizons-switch {
+    width:85vw;
+    height:auto;
+    position:relative;
+    text-align:center;
+    justify-content:center;
+    margin:0 auto;
+    margin-left:2.5vw;
+    padding-top:13vw;
+    padding-bottom:0vw;
+  }
+
+
+  .obj {
+    width:80vw;
+    border:10px solid white;
+    height:auto;
+    margin:0 auto;
+    margin-left:4.5vw;
+  }
+  
+  .obj:first-of-type {
+    margin-top:70px;
+  }
+  
+  .horizons-objdesc {
+    width:80vw;
+    box-sizing:border-box;
+    margin:0 auto;
+    margin-left:4.5vw;
+    margin-bottom:50px;
+    font-size:13px;
+  }
+
+  .mc {
+    width:100vw;
+    padding:3vw;
+    padding-left:10vw;
+    padding-right:25vw;
+    height:auto;
+    margin:0 auto;
+    margin-top:30px;
+  }
+  
+  .npctitle {
+    width:90vw;
+    margin-left:0px;
+    margin-top:0px;
+    font-family:'MontBold';
+    font-size:40px;
+    line-height:90%;
+    color:#d28352;
+    text-align:center;
+  }
+  
+  .npcdesc {
+    height:120px;
+    width:80vw;
+    padding-top:15px;
+    font-size:14px;
+    margin-left:15px;
+    text-align:center;
+  }
+
+  .character {
+    width:100vw;
+    padding:3vw;
+    padding-left:10vw;
+    padding-right:25vw;
+    height:auto;
+    margin:0 auto;
+  }
+
+  .va img,.vb img {
+    width:70vw;
+    height:auto;
+    float:none;
+    margin-left:0px;
+  }
+
+  .vb img {
+    margin-top:35px;
+  }
+
+  
+  .va p,.vb p {
+    width:70vw;
+    padding:0px;
+    float:unset;
+    margin-bottom:0px;
+    text-align:justify;
+  }
+
+  .va h5,.vb h5 {
+    font-size:30px;
+    width:100%;
+    float:unset;
+    color:#d28352;
+    margin-bottom:7px;
+    padding-top:20px;
+  }
 }

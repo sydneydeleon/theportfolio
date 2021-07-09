@@ -12,11 +12,11 @@ import Blathers from './images/blathers.jpg';
 function HorizonsChars() {
     return (
         <>
-        <div className="horizonsbody" style={{ height:3400}}></div>
+        <div className="horizonsbody" style={{ height:3200}}></div>
         <NewHorizonsHeader />
         <NewHorizonsMenu />
         <div className="horizons-container">
-        <img src={MainCharacter} className="mc" />
+        <img alt="pic" src={MainCharacter} className="mc" />
 
 <div className="npctitle">Meet the<br /><span><i>islanders!</i></span></div>
 
@@ -24,7 +24,7 @@ function HorizonsChars() {
 
 <div className="character va">
 
-<img src={TomNook} />
+<img alt="pic" src={TomNook} />
 
 <h5>Tom Nook</h5>
 
@@ -38,7 +38,7 @@ function HorizonsChars() {
 
 <p>Timmy (better known as Timmy) (まめきち) and Tommy (つぶきち) are the twin apprentices of Tom Nook, the tanuki who runs the town's store. Tom Nook explains to the player that Timmy and Tommy are not related to him by blood, and thinks of them as his pupils and himself as the mentor, stating that he wants to teach others good economic principles in order to help them from suffering the same pitfalls he did when growing up. </p>
 
-<img src={TimmyTommy} />
+<img alt="pic" src={TimmyTommy} />
 
 
     
@@ -46,11 +46,11 @@ function HorizonsChars() {
 
 <div className="character va">
 
-<img src={Wilbur} />
+<img alt="pic" src={Wilbur} />
 
 <h5>Wilbur</h5>
 
-<p>Wilbur (ロドリー, Rodrī) is a dodo special character who serves as a pilot for Dodo Airlines in Animal Crossing: New Horizons. He allows the player to go on different Island Tours. He refers to himself as "stovetop rubber band" and the player as "bellbottom bebop" amongst several other nicknames.<br/><br/><br/></p>
+<p>Wilbur (ロドリー, Rodrī) is a dodo special character who serves as a pilot for Dodo Airlines in Animal Crossing: New Horizons. He allows the player to go on different Island Tours. He refers to himself as "stovetop rubber band" and the player as "bellbottom bebop" amongst several other nicknames.</p>
     
 </div>
 
@@ -58,9 +58,9 @@ function HorizonsChars() {
 
 <h5>Orville</h5>
 
-<p>Orville (モーリー, Mōrī) is a special character introduced in Animal Crossing: New Horizons as a receptionist at the Dodo Airlines airport in the player's town. His brother, Wilbur, is a pilot for the airline.<br/><br/><br/><br/><br/></p>
+<p>Orville (モーリー, Mōrī) is a special character introduced in Animal Crossing: New Horizons as a receptionist at the Dodo Airlines airport in the player's town. His brother, Wilbur, is a pilot for the airline.</p>
 
-<img src={Orville} />
+<img alt="pic" src={Orville} />
 
 
     
@@ -68,7 +68,7 @@ function HorizonsChars() {
 
 <div className="character va">
 
-<img src={Blathers} />
+<img alt="pic" src={Blathers} />
 <br/><br/>
 <h5>Blathers</h5>
 

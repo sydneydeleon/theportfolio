@@ -15,7 +15,7 @@ function HorizonsObjectives() {
         <div className="horizons-container">
         <h2>Game objectives</h2>	
 
-<img src={NooksCranny} className="obj" />
+<img src={NooksCranny} alt="Nooks Cranny" className="obj" />
 
 <div className="horizons-objdesc">
 
@@ -41,7 +41,7 @@ Then, the specific requirements in order to upgrade Nook's Cranny are as follows
 </ul>
 </p></div>
 
-<img src={GuestServices} className="obj" />
+<img src={GuestServices} alt="Nooks Cranny" className="obj" />
 
 <div className="horizons-objdesc">
 
@@ -51,7 +51,7 @@ Then, the specific requirements in order to upgrade Nook's Cranny are as follows
     The Resident Services tent is the first version of Resident Services. Tom Nook and the Nooklings set up shop here, offering a free DIY crafting table, the Nook Stop, and a recycling bin. Tom Nook offers DIY workshops, guides the player in developing the island, and conducts ceremonies for the opening of new infrastructure, while Timmy has a small selection of items for sale and will purchase items from the player. After Nook's Cranny is constructed, Timmy and Tommy will move their business there.<br/><br/>
     After the player has completed Nook's Cranny, opened the Museum, and three more villagers have moved to the island, Tom Nook will decide to construct a permanent Resident Services building.</p></div>
 
-<img src={Museum} className="obj" />
+<img src={Museum} alt="Nooks Cranny" className="obj" />
 
 <div className="horizons-objdesc">
 

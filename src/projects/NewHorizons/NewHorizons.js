@@ -25,7 +25,7 @@ function ProjHorizonsHome() {
                 Welcome back, Mayor!
             </div>
 
-            <img src={HorizonsLogo} className="horizons-logopic" />
+            <img src={HorizonsLogo} className="horizons-logopic" alt="Logo" />
 
 
         </div>
