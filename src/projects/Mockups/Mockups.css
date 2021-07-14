@@ -1,0 +1,44 @@
+.portfolio-works-mockup-desc {
+width:100vw;
+padding:12vw 20vw;
+text-align:justify;
+text-align-last:center;
+line-height:180%;
+}
+
+.portfolio-works-mockup-img {
+width:100vw;
+padding: 0vw 15vw;
+padding-bottom:12vw;
+}
+
+.portfolio-works-mockup-img img {
+    width:100%;
+    height:auto;
+}
+
+
+@media only screen and (max-width: 450px)  {
+
+    .portfolio-works-mockup-desc {
+        width:100vw;
+        padding:15vw 17vw;
+        }
+    .portfolio-works-mockup-img {
+        width:100vw;
+        padding: 0vw 5vw;
+        padding-bottom:10vw;
+        }
+}
+
+@media only screen and (min-width: 1200px)  {
+
+    .portfolio-works-mockup-desc {
+        padding:15vw 30vw;
+        }
+    .portfolio-works-mockup-img {
+        width:100vw;
+        padding: 0vw 25vw;
+        padding-bottom:10vw;
+        }
+}

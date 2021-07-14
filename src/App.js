@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import ProjGravityMenu from './projects/Mockups/GravityMenu';
 import ProjDetroitBecomeHuman from './projects/Detroit/DetroitBecomeHuman';
 import ProjBlackFlag from './projects/BlackFlag/BlackFlag';
-import ProjFollettFamily from './projects/Follett/FollettFamily';
+import ProjFollettFamily from './projects/Mockups/FollettFamily';
 import ProjCatharsis from './projects/Catharsis/Catharsis';
 import ProjGestalt from './projects/Gestalt/Gestalt';
 import ProjSalonOne from './projects/Mockups/Salonv1';
