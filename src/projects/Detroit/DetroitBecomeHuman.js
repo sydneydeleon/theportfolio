@@ -12,7 +12,7 @@ function ProjDetroitBecomeHuman() {
         <div className="det-navi-bar">
             <img src={NaviLogo} alt="logo" className="det-navi-logo"/>
             <div className="det-navi-title">
-                CYBER<b>LIFE</b>
+                CYBER<b>LIFE</b>!!!!!!!!!!!!!!!!!
             </div>
             <div className="det-navi-links">
 
