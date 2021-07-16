@@ -1,0 +1,129 @@
+.myVideo {
+    width:100vw;
+    height:auto;
+    margin-bottom:-5px;
+}
+
+.det-navi-bar {
+    width:100vw;
+    height:8vh;
+    padding:11px;
+    background:#353a3f;
+    bottom:0px;
+    position:fixed;
+    color:#fff;
+    overflow:visible;
+    padding-left:20px;
+    z-index:99999999999;
+}
+
+.det-navi-logo {
+    height:55px;
+    width:auto;
+}
+
+.det-navi-title {
+    font-size:25px;
+    margin-left:65px;
+    margin-top:-43px;
+    letter-spacing:4px;
+    font-family:'AvenirRoman';
+}
+
+.det-navi-title b {
+    font-family:'AvenirBlack';
+}
+
+.det-navi-links {
+    width:700px;
+    margin-left:253px;
+    margin-top:-25px;
+    word-spacing:20px;
+}
+
+.det-navi-links a,.det-navi-links a:active {
+    color:#9a9d9f;
+    font-family:'AvenirRoman';
+}
+
+.det-navi-links a:hover {
+    color:#fff;
+}
+
+.det-second-container {
+    background:#eaeaea;
+    width:100vw;
+    box-sizing:border-box;
+    padding:100px 50px;
+    font-family:'AvenirRoman';
+
+}
+
+.det-second-info {
+    background:#fff;
+    width:800px;
+    margin:0 auto;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    box-sizing:border-box;
+    padding:70px 40px;
+}
+
+.det-second-info h1 {
+    font-family:'AvenirRoman';
+    font-weight:normal;
+    font-size:50px;
+    text-align:center;
+    letter-spacing:13px;
+}
+
+.det-second-info h1 b {
+    font-family:'AvenirBlack';
+    font-weight:bold;
+}
+
+.det-second-info h2 {
+    font-family:'AvenirRoman';
+    font-size:23px;
+    font-weight:normal;
+    text-align:center;
+    word-spacing:10px;
+}
+
+.det-sec-desc {
+    padding-top:50px;
+    padding-left:60px;
+}
+
+.det-sec-desc img {
+    width:350px;
+    height:auto;
+    position:absolute;
+    opacity:.5;
+    margin-top:10px;
+}
+
+.det-sec-desc p {
+    padding-top:0px;
+    font-family:'AvenirRoman';
+    margin-bottom:15px;
+    font-size:14px;
+    line-height:150%;
+    width:290px;
+    margin-left:290px;
+}
+
+.det-third-container {
+    width:100vw;
+    height:100vh;
+    background: url("images/bg.jpg") no-repeat center center fixed;
+	background-repeat:no-repeat;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+}
+
+.det-fourth-container {
+    background:pink;
+    width:100vw;
+    height:100vh;
+}

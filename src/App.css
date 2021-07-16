@@ -15,6 +15,21 @@ a,a:active,a:visited {
 }
 
 @font-face {
+  font-family: 'AvenirBlack';
+  src: local('AvenirBlack'), url(./otherfonts/AvenirBlack.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'AvenirBook';
+  src: local('AvenirBook'), url(./otherfonts/AvenirBook.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'AvenirRoman';
+  src: local('AvenirRoman'), url(./otherfonts/AvenirRoman.otf) format('opentype');
+}
+
+@font-face {
   font-family: 'Alata';
   src: local('Alata'), url(./fonts/alata-regular.ttf) format('truetype');
 }
