@@ -3,6 +3,7 @@ import DHeader from './videos/kara.mp4';
 import { Link } from 'react-router-dom';
 import NaviLogo from './images/circle.png'
 import Triangle from './images/triangle2.png'
+import Kara from './images/karagif.gif';
 import './DetroitBecomeHuman.css';
 
 function ProjDetroitBecomeHuman() {
@@ -12,7 +13,7 @@ function ProjDetroitBecomeHuman() {
         <div className="det-navi-bar">
             <img src={NaviLogo} alt="logo" className="det-navi-logo"/>
             <div className="det-navi-title">
-                CYBER<b>LIFE</b>!!!!!!!!!!!!!!!!!
+                CYBER<b>LIFE</b>
             </div>
             <div className="det-navi-links">
 
@@ -52,7 +53,21 @@ function ProjDetroitBecomeHuman() {
         <section id="det-third">
 
             <div className="det-third-container">
-                fucker 2
+                <div className="det-kara">
+
+                    <img src={Kara} />
+
+                    <div className="det-kara-desc">
+
+                        <p><b>Androids</b> are synthetic beings that are able to closely mimic humans in behavior, appearance, and structure. Internally they feature biocomponents, sythetic organs, and Thirium 310 (what is often referred to as 'blue blood') that circulates energy and electronic information throughout the android body.</p>
+                        <p>Their brains are highly advanced, giving them processing power to work like and interact with humans on an equal level (or arguably above). Each model of Android were built for a specific niche of functions, which means there is a perfect android out there for anyone, no matter what their needs or desires are.</p>
+
+                    </div>
+                    <div className="det-kara-title">
+                    What <em>is</em> an <b>android</b>?
+                    </div>
+                </div>
+                
             </div>
             
         </section>

@@ -114,7 +114,6 @@
 
 .det-third-container {
     width:100vw;
-    height:100vh;
     background: url("images/bg.jpg") no-repeat center center fixed;
 	background-repeat:no-repeat;
     -webkit-background-size: cover; 
@@ -126,4 +125,72 @@
     background:pink;
     width:100vw;
     height:100vh;
+}
+
+.det-kara {
+    width:320px;
+    padding:40px 10px 40px 10px;
+	background:#032541;
+	top:180px;
+	left:600px;
+	position:relative;
+	margin-bottom:10%;
+    overflow:visible;
+	box-shadow:0 15px 35px rgba(0,0,0,.08);
+    padding-bottom:300px;
+}
+
+.det-kara img {
+    width:220px;
+	height:auto;
+	border-radius:100%;
+    margin-left:38px;
+}
+
+.det-kara-desc {
+    width:550px;
+	background:#073863;
+	float:right;
+	right:-40px;
+	position:relative;
+	margin-top:35px;
+	padding:25px 25px;
+	font-family:'AvenirRoman';
+	color:white;
+	word-spacing:2px;
+	font-size:12.5px;
+	text-align:justify;
+	text-align-last:left;
+	box-shadow:0 15px 35px rgba(0,0,0,.08);
+    margin-bottom:390px;
+}
+
+.det-kara-desc p {
+    font-family:'AvenirRoman';
+    margin-bottom:20px;
+    text-indent:20px;
+    line-height:150%;
+}
+
+.det-kara-desc p:last-of-type {
+    margin-bottom:0px;
+}
+
+.det-kara-title {
+    position:absolute;
+	font-family:'AvenirBook';
+	font-size:28px;
+	color:white;
+	width:auto;
+	text-shadow: 3px 1px #000;
+	text-align:right;
+	text-transform:uppercase;
+    word-spacing:7px;
+	-webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+    width:500px;
+    margin-left:-310px;
+    margin-top:-90px;
 }

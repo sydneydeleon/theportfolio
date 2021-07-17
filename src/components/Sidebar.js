@@ -14,7 +14,7 @@ function Sidebar() {
             <div className="portfolio-navi-bar">
                 <Link to="#" className="portfolio-navi-icons" onClick={showMenu}>
                     <menuiconspan><FiIcons.FiBarChart2/><br/></menuiconspan>
-                    MENU......
+                    MENU
                 </Link>
             </div>
             <nav className={sidemenu ? 'portfolio-navi-dropdown active' : 'portfolio-navi-dropdown'}>
