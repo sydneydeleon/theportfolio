@@ -6,7 +6,7 @@
 
 .det-navi-bar {
     width:100vw;
-    height:8vh;
+    height:80px;
     padding:11px;
     background:#353a3f;
     bottom:0px;
@@ -54,14 +54,14 @@
     background:#eaeaea;
     width:100vw;
     box-sizing:border-box;
-    padding:100px 50px;
+    padding:150px 50px;
     font-family:'AvenirRoman';
 
 }
 
 .det-second-info {
     background:#fff;
-    width:800px;
+    width: 700px;
     margin:0 auto;
     box-shadow:0 15px 35px rgba(0,0,0,.08);
     box-sizing:border-box;
@@ -91,7 +91,7 @@
 
 .det-sec-desc {
     padding-top:50px;
-    padding-left:60px;
+    padding-left:15px;
 }
 
 .det-sec-desc img {
@@ -110,6 +110,7 @@
     line-height:150%;
     width:290px;
     margin-left:290px;
+    text-indent: 20px;
 }
 
 .det-third-container {
@@ -119,12 +120,6 @@
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
     -o-background-size: cover; 
-}
-
-.det-fourth-container {
-    background:pink;
-    width:100vw;
-    height:100vh;
 }
 
 .det-kara {
@@ -193,4 +188,184 @@
     width:500px;
     margin-left:-310px;
     margin-top:-90px;
+}
+
+.det-fourth-container {
+    background:#eaeaea;
+    width:100vw;
+    padding-top:30px;
+    padding-bottom:100px;
+    justify-content:center;
+    
+}
+
+.det-fourth-title {
+    text-align:right;
+    padding:50px 30px;
+    font-size:50px;
+    word-spacing:8px;
+    font-family:'AvenirRoman';
+}
+
+.det-fourth-title b {
+    font-family:'AvenirBlack';
+}
+
+.det-android-contain {
+    width:1000px;
+    margin:0 auto;
+}
+
+.det-android-model {
+    width:303px;
+    background:white;
+    height:auto;
+    box-sizing:border-box;
+    padding:50px 30px;
+    float:left;
+    
+    margin:15px;
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+    
+}
+
+.det-android-model h2 {
+    font-family:'AvenirRoman';
+    text-align:center;
+    letter-spacing:6px;
+    padding:20px 0px;
+    font-size:30px;
+    margin-bottom:-10px;
+}
+
+.det-android-model p {
+    font-family:'AvenirRoman';
+    margin-top:0px;
+    font-size:14px;
+    text-align:justify;
+    text-align-last:left;
+    line-height:20px;
+    padding-bottom:10px;
+    text-indent: 20px;
+}
+
+.det-android-model center {
+    font-family:'AvenirRoman';
+    font-size:12px;
+    line-height:17px;
+}
+
+.det-android-model center b {
+    font-family:'AvenirBlack';
+}
+.det-android-model img {
+    width:100%;
+    height:auto;
+}
+
+.det-fifth-container {
+    background: #010b15 url("images/triangles.png") no-repeat center center fixed;
+	background-repeat:no-repeat;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    width:100vw;
+    padding-top:30px;
+    overflow:visible;
+}
+
+.surveyvid {
+    width:100%;
+    height:auto;
+    margin:0 auto;
+}
+
+.det-survey-contain {
+    width:700px;
+    margin:0 auto;
+    padding: 100px 0px;
+}
+
+.det-survey-contain label {
+	text-transform:uppercase;
+    font-family:'AvenirRoman';
+    color:white;
+	margin-left:10px;
+	font-size:11.5px;}
+
+.det-survey-contain h3 {
+    font-size:15px;
+    width:270px;
+    font-family:'AvenirBlack';
+    color:white;
+    margin-bottom:7px;
+}
+.det-survey-contain ol {
+    padding-left:40px;
+    padding-top:30px;
+}
+
+.det-survey-contain li {
+    width:290px;
+    margin:30px 20px;
+    display:inline-block;
+}
+
+.det-sixth-container {
+    background:#eaeaea;
+    width:100vw;
+    padding:150px;
+    padding-bottom:250px;
+}
+
+.det-purchase {
+    width:600px;
+    margin:0 auto;
+}
+
+.det-purchase img {
+    width:290px;
+    height:auto;
+    float: left;
+}
+
+.det-purchase-desc {
+
+    padding-left:30px;
+    padding-top:35px;
+}
+
+.det-purchase-desc h1 {
+    font-family:'AvenirBlack';
+    font-size:35px;
+    margin-bottom:-6px;
+}
+
+.det-purchase-desc h2 {
+    font-family:'AvenirRoman';
+    font-size:25px;
+    margin-top:0px;
+    margin-bottom:15px;
+}
+
+.det-purchase-desc p {
+    font-family:'AvenirBook';
+    margin-bottom:15px;
+    padding-right:8px;
+}
+
+.det-button {
+    font-family:'AvenirBlack';
+    background:#2a4b71;
+    width:90%;
+    color:#fff;
+    padding:8px 12px;
+    padding-top:10px;
+    margin-bottom:0px;
+    border-radius:8px;
+}
+
+.det-button span {
+    float:right;
+    font-family:'AvenirRoman';
 }
