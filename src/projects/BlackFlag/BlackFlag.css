@@ -1,0 +1,251 @@
+@import url(https://reset5.googlecode.com/hg/reset.min.css);
+
+.flagbody {
+    background:black;
+    color:white;
+    font-family:'open sans'!important;
+}
+
+.flagbody p {
+    font-family:'open sans'!important;
+}
+
+.flag-header {
+    width:100vw;
+    height:100vh;
+    background:black;
+    padding:0px 40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.flag-header img {
+    width:100%;
+    height:auto;
+}
+
+.flag-navi {
+    width:100vw;
+    background:black;
+    font-family:'Avalon';
+    font-weight:bold;
+    letter-spacing:.5px;
+    font-size:16px;
+}
+
+.line {
+    height:8px;
+	background-color:white;
+    margin-bottom:40px;
+}
+
+.flag-navi img {
+    height:30px;
+    width:auto;
+    margin-bottom:8px;
+}
+
+.flag-navi ul {
+    list-style:none;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.flag-navi li {
+    display:inline-block;
+    width:150px;
+    margin:15px 5px;
+}
+
+.flag-navi a {
+    color:white;
+}
+
+#flagsection2 {
+    padding:20px;
+}
+
+#flagsection2 h1 {
+    font-family:'DojoKick';
+	font-weight:normal!important;
+    text-align:center;
+    overflow:visible;
+    line-height:140%;
+}
+
+.flag-about-img {
+    width:100%;
+    height:auto;
+    margin-bottom:30px;
+}
+
+.flag-about {
+    padding:20px;
+    column-width:100%;
+    font-family:'open sans'!important;
+}
+
+#flagsection3 {
+    background: url("./images/grungebg.png") no-repeat center center fixed;
+	background-repeat:no-repeat;
+    -webkit-background-size: contain; 
+    -moz-background-size: contain; 
+    -o-background-size: contain; 
+    font-family:'open sans'!important;
+}
+
+.flag-staff-desc {
+padding:40px;
+font-family:'open sans'!important;
+}
+
+.flag-staff-img {
+    width:100%;
+    height:auto;
+}
+
+#flagsection3 h1 {
+    font-family:'HardGrunge';
+    font-weight:normal;
+    font-size:70px;
+    text-align:center;
+    padding-bottom:30px;
+}
+
+#flagsection4 {
+    padding:20px;
+    padding-bottom:40px;
+    padding-top:40px;
+}
+
+.flag-programs {
+    
+}
+
+.flag-pro {
+    width:45%;
+    height:220px;
+    overflow:scroll;
+    display:inline-block;
+    padding:10px 10px;
+    margin:5px 8px;
+    transition:800ms;
+}
+
+.flag-pro:hover {
+    box-shadow: 0px 0px 10px .5px #292929;
+	background:#5a1514;
+    transition:800ms;
+}
+
+#flagsection4 h1 {
+    font-family:'HardGrunge';
+    font-weight:normal;
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+#flagsection4 h2 {
+    font-family:'HardGrunge';
+    font-weight:normal;
+    text-align:right;
+    font-size:40px;
+}
+
+.flag-polaroid-one {
+    transform: rotate(11deg);
+    margin-left:160px;
+    margin-top:-180px;
+    width:170px;
+}
+
+.flag-polaroid-two {
+    transform: rotate(0deg);
+    margin-left:90px;
+    margin-top:0px;
+    width:170px;
+    z-index:99999999999;
+}
+
+.flag-polaroid-three {
+    transform: rotate(-11deg);
+    margin-left:30px;
+    margin-top:-150px;
+    z-index:-9;
+    width:170px;
+}
+
+.elfbox {
+    overflow:visible;
+}
+
+#flagsection5 {
+    background: url("./images/grungebg.png") no-repeat center center fixed;
+	background-repeat:no-repeat;
+    -webkit-background-size: contain; 
+    -moz-background-size: contain; 
+    -o-background-size: contain; 
+    height:auto;
+    margin-bottom:60px;
+    margin-top:40px;
+    overflow:visible;
+}
+
+
+.flag-gallery {
+    text-align:center;
+    padding:20px;
+}
+
+.flag-gallery h1 {
+    font-family:'HardGrunge';
+    font-weight:normal;
+    font-size:40px;
+}
+
+.flag-contact-container {
+    width:100vw;
+}
+
+.flag-contact {
+    width:100%;
+    float:left;
+}
+
+.flag-contact-container h1 {
+    font-family:'HardGrunge';
+    font-weight:normal;
+    font-size:40px;
+}
+
+.flag-contact-container p {
+    margin-bottom:30px;
+}
+
+#flagsection6 {
+    padding:20px;
+}
+
+.flag-contact img {
+    width:89%;
+    height:auto;
+}
+
+.flag-contact-social img {
+    display:inline-block;
+    width:30px;
+    height:auto;
+    text-align:center;
+    margin:15px;
+}
+
+.flag-contact-social {
+    text-align:center;
+    padding-top:50px;
+    background: url("./images/grungebg.png") no-repeat fixed;
+	background-repeat:no-repeat;
+    -webkit-background-size: contain; 
+    -moz-background-size: contain; 
+    -o-background-size: contain; 
+}

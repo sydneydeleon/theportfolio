@@ -14,6 +14,24 @@ a,a:active,a:visited {
   text-decoration:none;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Nixie+One|Open+Sans:700italic,400,700|Open+Sans+Condensed:300,300italic,700|Slabo+13px);
+
+@font-face {
+  font-family: 'Avalon';
+  src: local('Avalon_Bold'), url(./otherfonts/Avalon_Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'DojoKick';
+  src: local('DOJO_KICK'), url(./otherfonts/DOJO_KICK.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'HardGrunge';
+  src: local('HardGrunge'), url(./otherfonts/HardGrunge.ttf) format('truetype');
+}
+
+
 @font-face {
   font-family: 'AvenirBlack';
   src: local('AvenirBlack'), url(./otherfonts/AvenirBlack.otf) format('opentype');
