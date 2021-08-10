@@ -64,6 +64,8 @@
 
 #flagsection2 {
     padding:20px;
+    padding-top:20vh;
+    padding-bottom:20vh;
 }
 
 #flagsection2 h1 {
@@ -93,6 +95,8 @@
     -moz-background-size: contain; 
     -o-background-size: contain; 
     font-family:'open sans'!important;
+    padding-top:20vh;
+    padding-bottom:20vh;
 }
 
 .flag-staff-desc {
@@ -119,10 +123,6 @@ font-family:'open sans'!important;
     padding-top:40px;
 }
 
-.flag-programs {
-    
-}
-
 .flag-pro {
     width:45%;
     height:220px;
@@ -139,6 +139,11 @@ font-family:'open sans'!important;
     transition:800ms;
 }
 
+#flagsection4 {
+    padding-top:20vh;
+    padding-bottom:20vh;
+}
+
 #flagsection4 h1 {
     font-family:'HardGrunge';
     font-weight:normal;
@@ -153,28 +158,6 @@ font-family:'open sans'!important;
     font-size:40px;
 }
 
-.flag-polaroid-one {
-    transform: rotate(11deg);
-    margin-left:160px;
-    margin-top:-180px;
-    width:170px;
-}
-
-.flag-polaroid-two {
-    transform: rotate(0deg);
-    margin-left:90px;
-    margin-top:0px;
-    width:170px;
-    z-index:99999999999;
-}
-
-.flag-polaroid-three {
-    transform: rotate(-11deg);
-    margin-left:30px;
-    margin-top:-150px;
-    z-index:-9;
-    width:170px;
-}
 
 .elfbox {
     overflow:visible;
@@ -187,8 +170,8 @@ font-family:'open sans'!important;
     -moz-background-size: contain; 
     -o-background-size: contain; 
     height:auto;
-    margin-bottom:60px;
-    margin-top:40px;
+    padding-top:20vh;
+    padding-bottom:20vh;
     overflow:visible;
 }
 
@@ -225,6 +208,8 @@ font-family:'open sans'!important;
 
 #flagsection6 {
     padding:20px;
+    padding-top:20vh;
+    padding-bottom:5vh;
 }
 
 .flag-contact img {
@@ -249,3 +234,277 @@ font-family:'open sans'!important;
     -moz-background-size: contain; 
     -o-background-size: contain; 
 }
+
+.elfbox {
+    width:330px;
+    margin:0 auto;
+    padding-top:15px;
+}
+
+.elfbox img {
+    width:100%;
+    height:auto;
+}
+
+
+@media only screen and (min-width: 640px) and (max-width:814px) {
+    .flag-header img {
+        width:70%;
+        height:auto;
+    }
+
+    .flag-navi li {
+        width:200px;
+    }
+
+}
+
+
+@media only screen and (min-width: 535px)  {
+    
+    #flagsection6 {
+
+        width:450px;
+        margin:0 auto;
+        padding:20px;
+        padding-top:20vh;
+        padding-bottom:5vh;
+    }
+
+    .flag-contact-container h1 {
+        font-size:60px;
+    }
+
+    .flag-contact img {
+        width:450px;
+        height:auto;
+    }
+
+    .flag-contact {
+        padding-bottom:100px;
+    }
+
+  }
+
+
+  @media only screen and (min-width: 935px)  {
+    
+    #flagsection6 {
+
+        width:550px;
+        margin:0 auto;
+        padding:20px;
+        padding-top:20vh;
+        padding-bottom:5vh;
+    }
+
+    .flag-contact img {
+        width:550px;
+        height:auto;
+    }
+
+}
+
+
+@media only screen and (min-width: 815px) and (max-width:963px) {
+    .flag-header img {
+        width:50%;
+        height:auto;
+    }
+
+    .flag-navi li {
+        width:120px;
+    }
+
+    .line {
+        margin-top:-82px;
+    }
+   
+    .flag-navi img {
+        margin-bottom:20px;
+    }
+
+    .elfbox {
+        width:500px;
+        margin:0 auto;
+        padding-top:15px;
+    }
+    
+
+    .flag-gallery h1 {
+        font-family:'HardGrunge';
+        font-weight:normal;
+        font-size:80px;
+    }
+
+    .flag-gallery p {
+        font-size:23px;
+        padding-bottom:50px;
+    }
+    
+  }
+
+
+@media only screen and (min-width: 815px) {
+    .flag-programs {
+        width:800px;
+        margin:0 auto;
+    }
+
+    .flag-pro {
+        width:360px;
+        margin:20px;
+    }
+
+    #flagsection4 h2 {
+        font-size:60px;
+        padding-bottom:30px;
+    }
+
+    #flagsection4 h1 {
+        font-size:40px;
+    }
+}
+
+@media only screen and (min-width: 964px) {
+    .flag-header img {
+        width:40%;
+        height:auto;
+    }
+
+    .line {
+        margin-top:-71px;
+    }
+   
+  }
+
+
+  @media only screen and (min-width: 700px) {
+
+    #flagsection2 h1 {
+        line-height:140%;
+        font-size:40px;
+        padding:30px 40px;
+    }
+    
+    
+    .flag-about {
+        padding:30px;
+        column-width:200px;
+        column-gap:40px;
+    }
+
+    #flagsection2 {
+        padding:20px 60px;
+        padding-top:20vh;
+        padding-bottom:20vh;
+    }
+
+
+    .flag-staff-img {
+        float:left;
+        width:49%;
+    }
+
+    #flagsection3 {
+        padding-left:40px;
+        padding-right:40px;
+    }
+
+    #flagsection3 h1 {
+        font-size:35px;
+        padding-top:15px;
+    }
+
+    .flag-staff-desc {
+        padding:0px;
+        padding-left:30px;
+        height:390px;
+        overflow:auto;
+        width:49%;
+
+        }
+
+  }
+
+
+  @media only screen and (min-width: 920px) {
+
+    #flagsection3 {
+        height:100vh;
+    }
+    .flag-staff-holder {
+        width:800px;
+        margin:0 auto;
+    }
+
+    .flag-staff-desc {
+        height:460px;
+        
+
+        }
+
+        #flagsection3 h1 {
+            font-size:55px;
+            padding-top:25px;
+        }
+
+
+  }
+
+
+  @media only screen and (min-width: 1100px) {
+    .flag-about {
+    column-width:300px;
+    column-gap:60px;
+    padding:80px;
+    }
+  }
+
+  @media only screen and (min-width: 1300px) {
+
+    .flag-staff-holder {
+        width:1000px;
+        margin:0 auto;
+    }
+
+    .flag-staff-desc {
+        height:640px;
+        background:rgba(0,0,0,.4)
+        }
+
+        #flagsection3 h1 {
+            font-size:75px;
+            padding-top:65px;
+        }
+
+
+  }
+
+  @media only screen and (min-width: 964px)  {
+
+    .flag-gal-holder {
+        width:900px;
+        margin:0 auto;
+        background:rgba(0,0,0,.4);
+        padding:10px 0px;
+    }
+    
+    .flag-gallery {
+        float:left;
+        padding-top:90px;
+        width:500px;
+    }
+
+    .flag-gallery h1 {
+        font-size:80px;
+    }
+ 
+    .elfbox {
+     width:400px;
+     padding:0px;
+     float:left;
+ }
+
+ 
+   }

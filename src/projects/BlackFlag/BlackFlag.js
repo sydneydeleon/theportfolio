@@ -9,17 +9,12 @@ import BFGallery from './images/icon_five.png';
 import BFContact from './images/icon_six.png';
 import BFSam from './images/samurai.png';
 import BFInstructors from './images/instructors.png';
-import BFPolaroidOne from './images/polaroid_one.png';
-import BFPolaroidTwo from './images/polaroid_two.png';
-import BFPolaroidThree from './images/polaroid_three.png';
-import BFPictureOne from './images/picture_one.png';
-import BFPictureTwo from './images/picture_two.png';
-import BFPictureThree from './images/picture_three.png';
 import BFMap from './images/map.png';
 import BFFb from './images/facebook.png';
 import BFT from './images/twitter.png';
 import BFG from './images/google.png';
 import BFIg from './images/insta.png';
+import BFPolaroids from './images/Untitled-1.png';
 
 function ProjBlackFlag() {
     return (
@@ -36,11 +31,11 @@ function ProjBlackFlag() {
         <div className="flag-navi">
             <ul>
                 <li><a href="#flagsection1"><img src={BFHome} />
-                <br />HOME</a></li>
+                <br />REFRESH</a></li>
                 <li><a href="#flagsection2"><img src={BFAbout} />
-                <br />ABOUT US</a></li>
+                <br />MISSON</a></li>
                 <li><a href="#flagsection3"><img src={BFStaff} />
-                <br />INSTRUCTORS</a></li>
+                <br />MASTERS</a></li>
                 <li><a href="#flagsection4"><img src={BFPrograms} />
                 <br />PROGRAMS</a></li>
                 <li><a href="#flagsection5"><img src={BFGallery} />
@@ -55,17 +50,18 @@ function ProjBlackFlag() {
         <img src={BFSam} className="flag-about-img" />
         <h1>BLACK FLAG MARTIAL ARTS</h1>
         <div className="flag-about">
-        Black Flag Martial Arts studio was founded in 2012 by Henry Punk the third and Geordie 'Badass' Jenkins.<br /><br />As punk and grunge enthsuaists, the majority of the things they enjoyed came from art. After all, music, visual art, and the like are where grunge thrives. However, as people who were interested in health and fitness as well, they were lacking. Their fancies were, to say the least, untickled.<br /><br />They realized that there weren't any facilities or gyms dedicated to people like them. People who were different, edgy, and shunned by polite society. People who enjoy being the way that they are.<br /><br />So they set out to create what the world wasn't ready for: a grunge dojo. A place for the weirdest of the weird, the hardcore population who wants to better themselves physically. A not so safe haven where punks could learn to kick ass without having the unforgiving judgments of society.<br /><br />he two were traveling through Seattle (which apparently is the birthplace of grunge, though that fact does not sound real what so ever) when this idea occured.<br /><br />Once they returned home to Bethlehem, Pennsylvania, Henry and Badass pooled their resources together to buy an abandoned warehouse in the middle of nowhere. It is here where Black Flag was born.<br /><br />It has been open and operating as a health and safety department nightmare ever since.<br /><br />At Black Flag Martial Arts, our only commitment is to being the best version of ourselves.
+        Black Flag Martial Arts studio was founded in 2012 by Henry Punk the third and Geordie 'Badass' Jenkins.<br /><br />As punk and grunge enthsuaists, the majority of the things they enjoyed came from art. After all, music, visual art, and the like are where grunge thrives. However, as people who were interested in health and fitness as well, they were lacking. Their fancies were, to say the least, untickled.<br /><br />They realized that there weren't any facilities or gyms dedicated to people like them. People who were different, edgy, and shunned by polite society. People who enjoy being the way that they are.<br /><br />So they set out to create what the world wasn't ready for: a grunge dojo. A place for the weirdest of the weird, the hardcore population who wants to better themselves physically. A not so safe haven where punks could learn to kick ass without having the unforgiving judgments of society.<br /><br />he two were traveling through Seattle (which apparently is the birthplace of grunge, though that fact does not sound real what so ever) when this idea occured.<br /><br />Once they returned home to Get Wreckt City, USA, Henry and Badass pooled their resources together to buy an abandoned warehouse in the middle of nowhere. It is here where Black Flag was born.<br /><br />It has been open and operating as a health and safety department nightmare ever since.<br /><br />At Black Flag Martial Arts, our only commitment is to being the best version of ourselves.
         </div>
 
         </section>
 
         <section id="flagsection3">
-    
+            <div className="flag-staff-holder">
         <img src={BFInstructors} className="flag-staff-img" />
         <div className="flag-staff-desc">
             <h1>MEET THE CREW</h1>
             <p>Here at the Black Flag Martial Arts Academy, we're home to some of the most talented instructors in the nation. Not only is every mentor that walks through our doors thoroughly back checked and screened, but they're put to the test. Rigious training and drills make them prove their punk and grungeness before they're even allowed in the same room as our uniforms.<br/><br/>Every member of our team is dedicated to the cause, dedicated to grunge, and most importantly: dedicated to you. We flow like a well oiled machine, working hard to make you the best you can be physically, mentally, and emotionally. At Black Flag, we're not just a martial arts studio. We're a family.</p>
+        </div>
         </div>
         </section>
 
@@ -107,6 +103,7 @@ function ProjBlackFlag() {
         </section>
 
         <section id="flagsection5">
+            <div className="flag-gal-holder">
             <div className="flag-gallery">
                 <h1>THE GALLERY</h1>
                 <p>Check it out for yourself.</p>
@@ -114,22 +111,10 @@ function ProjBlackFlag() {
 
             <div className="elfbox">
 
-            <a href={BFPictureOne} target="blank_" rel="lightbox[roadtrip]">
-                    <img src={BFPolaroidOne} className="flag-polaroid-two" />
-                </a>
-
-
-
-                <a href={BFPictureThree} target="blank_" rel="lightbox[roadtrip]">
-                    <img src={BFPolaroidThree} className="flag-polaroid-three" />
-                </a>
-
-                <a href={BFPictureTwo} target="blank_" rel="lightbox[roadtrip]">
-                    <img src={BFPolaroidTwo}
-                    className="flag-polaroid-one" />
-                </a>
+            
+                    <img src={BFPolaroids} />
             </div>
-
+        </div>
         </section>
 
         <section id="flagsection6">
