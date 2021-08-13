@@ -16,9 +16,9 @@ function ProjDetroitBecomeHuman() {
         <>
 
         <div className="det-navi-bar">
-            <img src={NaviLogo} alt="logo" className="det-navi-logo"/>
+        <img src={NaviLogo} alt="logo" className="det-navi-logo"/> 
             <div className="det-navi-title">
-                CYBER<b>LIFE</b>
+            CYBER<b>LIFE</b>
             </div>
             <div className="det-navi-links">
 
@@ -35,7 +35,7 @@ function ProjDetroitBecomeHuman() {
         <source src={DHeader} type="video/mp4"/>
         </video>
         </section>
-
+        
         <section id="det-second">
 
             <div className="det-second-container">
@@ -255,30 +255,30 @@ function ProjDetroitBecomeHuman() {
 
         <section id="det-sixth">
 
-            <div className="det-sixth-container">
-                
-                <div className="det-purchase">
+<div className="det-sixth-container">
+    
+    <div className="det-purchase">
 
-                    <img src={Game} />
+        <img src={Game} />
 
-                    <div className="det-purchase-desc">
+        <div className="det-purchase-desc">
 
-                        <h1>DETROIT:</h1>
-                        <h2>BECOME HUMAN</h2>
+            <h1>DETROIT:</h1>
+            <h2>BECOME HUMAN</h2>
 
-                        <p>Walk the fine line that separates man from machine by inserting yourself into the immersive world created by QuanticDream. Available for Playstation 4 as of May 25th.</p>
+            <p>Walk the fine line that separates man from machine by inserting yourself into the immersive world created by QuanticDream. Available for Playstation 4 as of May 25th.</p>
 
-                        <div className="det-button" href="">STANDARD <span>$19.99 (USD) </span></div>
-                        <br/>
-                        <div className="det-button" href="">DELUXE <span>$29.99 (USD) </span></div>
+            <div className="det-button" href="">STANDARD <span>$19.99 (USD) </span></div>
+            <br/>
+            <div className="det-button" href="">DELUXE <span>$29.99 (USD) </span></div>
 
-                    </div>
+        </div>
 
-                </div>
+    </div>
 
-            </div>
+</div>
 
-        </section>
+</section>
 
         </>
     )

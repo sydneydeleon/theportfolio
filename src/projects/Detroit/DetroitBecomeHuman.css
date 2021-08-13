@@ -1,7 +1,6 @@
 .myVideo {
-    width:100vw;
-    height:auto;
-    margin-bottom:-5px;
+    height:100vh;
+    margin-left:-100vw;
 }
 
 .det-navi-bar {
@@ -12,22 +11,22 @@
     bottom:0px;
     position:fixed;
     color:#fff;
-    overflow:visible;
-    padding-left:20px;
     z-index:99999999999;
 }
 
 .det-navi-logo {
     height:55px;
     width:auto;
+    float:left;
 }
 
 .det-navi-title {
     font-size:25px;
-    margin-left:65px;
-    margin-top:-43px;
     letter-spacing:4px;
     font-family:'AvenirRoman';
+    text-align:center;
+    padding-left:5px;
+    padding-top:15px;
 }
 
 .det-navi-title b {
@@ -39,6 +38,7 @@
     margin-left:253px;
     margin-top:-25px;
     word-spacing:20px;
+    display:none;
 }
 
 .det-navi-links a,.det-navi-links a:active {
@@ -54,26 +54,26 @@
     background:#eaeaea;
     width:100vw;
     box-sizing:border-box;
-    padding:150px 50px;
+    padding:30px;
     font-family:'AvenirRoman';
 
 }
 
 .det-second-info {
     background:#fff;
-    width: 700px;
+    width: 100%;
     margin:0 auto;
     box-shadow:0 15px 35px rgba(0,0,0,.08);
     box-sizing:border-box;
-    padding:70px 40px;
+    padding:35px 20px;
 }
 
 .det-second-info h1 {
     font-family:'AvenirRoman';
     font-weight:normal;
-    font-size:50px;
+    font-size:30px;
     text-align:center;
-    letter-spacing:13px;
+    letter-spacing:8px;
 }
 
 .det-second-info h1 b {
@@ -83,10 +83,13 @@
 
 .det-second-info h2 {
     font-family:'AvenirRoman';
-    font-size:23px;
+    font-size:18px;
     font-weight:normal;
     text-align:center;
-    word-spacing:10px;
+    word-spacing:4px;
+    padding:0px 30px;
+    padding-top:10px;
+    margin-bottom:0px;
 }
 
 .det-sec-desc {
@@ -95,11 +98,13 @@
 }
 
 .det-sec-desc img {
-    width:350px;
+    width:100%;
     height:auto;
-    position:absolute;
     opacity:.5;
-    margin-top:10px;
+    margin-top:0px;
+    text-align:center;
+    margin-left:-5px;
+    margin-bottom:25px;
 }
 
 .det-sec-desc p {
@@ -108,14 +113,12 @@
     margin-bottom:15px;
     font-size:14px;
     line-height:150%;
-    width:290px;
-    margin-left:290px;
     text-indent: 20px;
 }
 
 .det-third-container {
     width:100vw;
-    background: url("images/bg.jpg") no-repeat center center fixed;
+    background: url("images/bgcopy.jpg") no-repeat center center fixed;
 	background-repeat:no-repeat;
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
@@ -123,31 +126,31 @@
 }
 
 .det-kara {
-    width:320px;
+    width:250px;
     padding:40px 10px 40px 10px;
 	background:#032541;
-	top:180px;
-	left:600px;
-	position:relative;
+	margin:0 auto;
+    margin-top:40px;
 	margin-bottom:10%;
     overflow:visible;
 	box-shadow:0 15px 35px rgba(0,0,0,.08);
-    padding-bottom:300px;
+    box-sizing:border-box;
+    padding:30px 30px;
+    padding-bottom:1px;
 }
 
 .det-kara img {
-    width:220px;
+    width:100%;
 	height:auto;
 	border-radius:100%;
-    margin-left:38px;
+    margin:0 auto;
 }
 
 .det-kara-desc {
-    width:550px;
+    width:300px;
 	background:#073863;
-	float:right;
-	right:-40px;
 	position:relative;
+    margin-left:-55px;
 	margin-top:35px;
 	padding:25px 25px;
 	font-family:'AvenirRoman';
@@ -157,7 +160,7 @@
 	text-align:justify;
 	text-align-last:left;
 	box-shadow:0 15px 35px rgba(0,0,0,.08);
-    margin-bottom:390px;
+    margin-bottom:70px;
 }
 
 .det-kara-desc p {
@@ -174,7 +177,7 @@
 .det-kara-title {
     position:absolute;
 	font-family:'AvenirBook';
-	font-size:28px;
+	font-size:18px;
 	color:white;
 	width:auto;
 	text-shadow: 3px 1px #000;
@@ -186,8 +189,8 @@
 	-ms-transform: rotate(-90deg);
 	-o-transform: rotate(-90deg);
     width:500px;
-    margin-left:-310px;
-    margin-top:-90px;
+    margin-left:-300px;
+    margin-top:-430px;
 }
 
 .det-fourth-container {
@@ -201,8 +204,8 @@
 
 .det-fourth-title {
     text-align:right;
-    padding:50px 30px;
-    font-size:50px;
+    padding:20px 30px;
+    font-size:45px;
     word-spacing:8px;
     font-family:'AvenirRoman';
 }
@@ -212,19 +215,21 @@
 }
 
 .det-android-contain {
-    width:1000px;
+    width:100vw;
     margin:0 auto;
+    box-sizing:border-box;
+    padding:0px 30px;
 }
 
 .det-android-model {
-    width:303px;
+    width:100%;
     background:white;
     height:auto;
     box-sizing:border-box;
     padding:50px 30px;
     float:left;
     
-    margin:15px;
+    margin:20px 0px;
     box-shadow:0 10px 35px rgba(0,0,0,.08);
     
 }
@@ -278,12 +283,14 @@
     width:100%;
     height:auto;
     margin:0 auto;
+    display:none;
 }
 
 .det-survey-contain {
-    width:700px;
+    width:100vw;
     margin:0 auto;
-    padding: 100px 0px;
+    padding: 0px 0px;
+    padding-bottom:40px;
 }
 
 .det-survey-contain label {
@@ -314,24 +321,24 @@
 .det-sixth-container {
     background:#eaeaea;
     width:100vw;
-    padding:150px;
-    padding-bottom:250px;
+    padding:50px;
+    padding-bottom:130px;
 }
 
 .det-purchase {
-    width:600px;
+    width:100%;
     margin:0 auto;
 }
 
 .det-purchase img {
-    width:290px;
+    width:100%;
     height:auto;
     float: left;
 }
 
 .det-purchase-desc {
 
-    padding-left:30px;
+    padding-left:24px;
     padding-top:35px;
 }
 
