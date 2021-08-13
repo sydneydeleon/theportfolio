@@ -34,10 +34,6 @@
 }
 
 .det-navi-links {
-    width:700px;
-    margin-left:253px;
-    margin-top:-25px;
-    word-spacing:20px;
     display:none;
 }
 
@@ -280,9 +276,6 @@
 }
 
 .surveyvid {
-    width:100%;
-    height:auto;
-    margin:0 auto;
     display:none;
 }
 
@@ -375,4 +368,388 @@
 .det-button span {
     float:right;
     font-family:'AvenirRoman';
+}
+
+
+@media only screen and (min-width: 500px) {
+    .det-navi-title {
+        float:left;
+        padding-right:22px;
+    }
+
+    .det-navi-links {
+        width:220px;
+        word-spacing:20px;
+        display:inherit;
+        margin-top:7px;
+        font-size:14px;
+        text-align:justify;
+        text-align-last:justify;
+    }
+
+    .det-second-container {
+        width:100vw;
+        padding:50px;
+    
+    }
+    
+    .det-second-info {
+        width: 350px;
+        margin:0 auto;
+        padding:35px 20px;
+    }
+
+    .det-kara-desc {
+        width:350px;
+        margin-left:-80px;
+        margin-top:35px;
+        margin-bottom:70px;
+    }
+
+    .det-kara-title {
+    
+        font-size:21px;
+        width:500px;
+        margin-left:-310px;
+        margin-top:-425px;
+    }
+
+    .det-third-container {
+        padding:50px 0px;
+    }
+
+    .det-android-contain {
+        width:400px;
+    }
+    
+    .det-android-model {
+        margin:40px 0px;
+        
+    }
+
+    .surveyvid {
+        width:100%;
+        height:auto;
+        margin:0 auto;
+        display:inherit;
+    }
+
+    .det-survey-contain {
+        width:400px;
+        margin:0 auto;
+        padding: 40px 0px;
+    }
+
+    .det-survey-contain ol {
+        padding-left:15px;
+        padding-top:30px;
+    }
+    
+    .det-survey-contain li {
+        width:150px;
+        margin:30px 20px;
+    }
+
+    .det-survey-contain h3 {
+        width:150px;
+    }
+
+
+    .det-sixth-container {
+        padding-top:80px;
+        padding-bottom:150px;
+    }
+    
+    .det-purchase {
+        width:300px;
+        margin:0 auto;
+    }
+    
+    .det-purchase-desc {
+        padding-top:45px;
+    }
+}
+
+
+@media only screen and (min-width: 640px) {
+    .det-navi-links {
+        width:360px;
+        word-spacing:5px;
+        display:inherit;
+        margin-top:20px;
+        font-size:14px;
+        text-align:justify;
+    }
+
+    .myVideo {
+        height:auto;
+        width:100vw;
+        margin-left:0vw;
+        margin-bottom:-2px;
+    }
+
+    .det-second-container {
+        padding:100px 50px;
+    
+    }
+    
+    .det-second-info {
+        width: 500px;
+        margin:0 auto;
+        padding:35px 20px;
+    }
+
+    .det-sec-desc img {
+        width:300px;
+        height:auto;
+        margin-top:0px;
+        margin-left:-15px;
+        margin-bottom:-295px;
+        -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+    }
+    
+    .det-sec-desc p {
+        margin-bottom:15px;
+        width:250px;
+        margin-left:180px;
+        font-style:italic;
+    }
+
+
+    .det-kara {
+        width:320px;
+        padding: 40px 45px;
+        margin-top:80px;
+    }
+
+    
+    .det-kara-desc {
+        width:420px;
+        margin-left:-95px;
+        margin-top:35px;
+        margin-bottom:50px;
+    }
+
+    .det-kara-title {
+        position:absolute;
+        font-size:27px;
+        margin-left:-330px;
+        margin-top:-440px;
+    }
+
+    .det-third-container {
+        padding:50px 0px;
+    }
+
+    .det-android-contain {
+        width:600px;
+    }
+    
+    .det-android-model {
+        width:250px;
+        margin:20px 10px;
+        
+    }
+
+    .det-survey-contain {
+        width:500px;
+        margin:0 auto;
+        padding: 40px 0px;
+    }
+
+    .det-survey-contain ol {
+        padding-left:13px;
+        padding-top:30px;
+    }
+    
+    .det-survey-contain li {
+        width:200px;
+        margin:30px 20px;
+    }
+
+    .det-survey-contain h3 {
+        width:200px;
+    }
+
+    .det-purchase {
+        width:580px;
+        margin:0 auto;
+    }
+    
+    .det-purchase img {
+        width:270px;
+        height:auto;
+        float: left;
+       
+    }
+    
+    .det-purchase-desc {
+        width:310px;
+        padding-left:24px;
+        padding-top:25px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 740px) {
+    .det-navi-links {
+        width:460px;
+        word-spacing:5px;
+        display:inherit;
+        margin-top:20px;
+        font-size:14px;
+        text-align:justify;
+    }
+
+    .det-android-contain {
+        width:700px;
+    }
+    
+    .det-android-model {
+        width:300px;
+        margin:20px 10px;
+        
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .det-navi-links {
+        width:550px;
+        font-size:16px;
+        padding-left:10px;
+    }
+
+
+    .det-second-container {
+        padding:150px 50px;
+    
+    }
+    
+    .det-second-info {
+        width: 600px;
+        margin:0 auto;
+        padding:35px 20px;
+    }
+
+    .det-sec-desc img {
+        width:300px;
+        height:auto;
+        margin-top:0px;
+        margin-left:0px;
+        margin-bottom:-305px;
+        -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+    }
+    
+    .det-sec-desc p {
+        margin-bottom:15px;
+        width:260px;
+        margin-left:240px;
+        font-style:italic;
+    }
+
+    .det-second-info h1 {
+        font-size:60px;
+        letter-spacing:8px;
+        margin-bottom:-15px;
+        padding-top:20px;
+    }
+    
+    .det-second-info h2 {
+        font-size:24px;
+        word-spacing:4px;
+    }
+
+    .det-third-container {
+        background: url("images/bg.jpg") no-repeat center center fixed;
+    }
+
+
+    .det-kara {
+        width:350px;
+        padding: 40px 45px;
+        margin-top:120px;
+    }
+
+    
+    .det-kara-desc {
+        width:500px;
+        margin-left:-155px;
+        margin-top:80px;
+        margin-bottom:50px;
+    }
+
+    .det-kara-desc p {
+        font-size:14px;
+    }
+
+    .det-kara-title {
+        position:absolute;
+        font-size:35px;
+        margin-left:-340px;
+        margin-top:-530px;
+    }
+
+
+    .det-third-container {
+        padding:50px 0px;
+    }
+
+    .det-android-contain {
+        width:980px;
+    }
+    
+    .det-android-model {
+        width:286px;
+        margin:20px 10px;
+        
+    }
+
+    .det-fourth-title {
+        padding:20px 70px;
+        font-size:55px;
+    }
+
+    .det-fourth-container {
+        padding-top:100px;
+        padding-bottom:150px;
+        justify-content:center;
+        
+    }
+
+    .det-survey-contain {
+        width:700px;
+        margin:0 auto;
+        padding: 80px 0px;
+    }
+
+    .det-survey-contain ol {
+        padding-left:13px;
+        padding-top:30px;
+    }
+    
+    .det-survey-contain li {
+        width:290px;
+        margin:30px 25px;
+    }
+
+    .det-survey-contain h3 {
+        width:280px;
+    }
+
+
+    .det-sixth-container {
+        padding:50px;
+        padding-top:200px;
+        padding-bottom:270px;
+    }
+    
 }
